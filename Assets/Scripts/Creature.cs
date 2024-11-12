@@ -18,9 +18,11 @@ public class Creature : MonoBehaviour
     private bool isAttacked;
     private bool isActive;
 
+    private float rotateSpeed = 10f;
     private float Hp;
     private float damage;
     private int stageIdx;
+
 
     void Start()
     {
@@ -61,13 +63,16 @@ public class Creature : MonoBehaviour
 
     void LateUpdate()
     {
-        if (Vector2.Distance(transform.position, target.position) > 0)
+        Vector2 dir = (target.position - transform.position).normalized;
+        // LookPlayer();
+        if (dir.x > 0)
         {
-            transform.rotation = Quaternion.Euler(Vector3.zero);
+            dir.x = -dir.x;
+            transform.rotation = Quaternion.Euler(0, -180, dir.x);
         }
         else
         {
-            transform.rotation = Quaternion.Euler(0, 180, 0);
+            transform.rotation = Quaternion.Euler(0, 0, dir.x);
         }
     }
 
@@ -86,5 +91,42 @@ public class Creature : MonoBehaviour
         // 스킬을 다시 사용할수있게 변경
         isAttacked = false;
         
+    }
+
+
+    // 부정확해서 사용보류
+    void LookPlayer()
+    {
+        if (target != null) 
+        {
+            Vector2 direction = new Vector2
+            (
+                transform.position.x - target.position.x,
+                transform.position.y - target.position.y
+            );
+            float angle = Mathf.Atan2(direction.y, direction.x) * Mathf. Rad2Deg;
+            Quaternion angleAxis = Quaternion.AngleAxis(angle, Vector3.forward);
+            transform.rotation = Quaternion.RotateTowards(transform.rotation, angleAxis, rotateSpeed * Time.deltaTime);
+
+        // 현재 X축 회전을 유지하면서 Z축만 클램핑
+        Vector3 currentRotation = transform.rotation.eulerAngles;
+        float clampedZRotation = currentRotation.z;
+
+        // Z축 회전 값을 70도 이내로 제한
+        if (currentRotation.z > 70f && currentRotation.z <= 180f)
+        {
+            clampedZRotation = 70f;
+        }
+        else if (currentRotation.z < 290f && currentRotation.z > 180f)
+        {
+            clampedZRotation = 290f;
+        }
+
+        // Z축 제한된 각도를 적용하면서 Y축 반전 조건 설정
+        float yRotation = (clampedZRotation == 70f || clampedZRotation == 290f) ? 180f : 0f;
+
+        // 최종 회전 값 적용 (X축은 기존 값 유지, Y와 Z만 설정)
+        transform.rotation = Quaternion.Euler(currentRotation.x, yRotation, clampedZRotation);
+        }
     }
 }
