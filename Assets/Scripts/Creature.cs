@@ -16,6 +16,7 @@ public class Creature : MonoBehaviour
     private Transform target;
 
     private bool isAttacked;
+    private bool isActive;
 
     private float Hp;
     private float damage;
@@ -30,6 +31,7 @@ public class Creature : MonoBehaviour
         target = GameObject.FindGameObjectWithTag("Player").transform;
 
         isAttacked = false;
+        isActive = false;
 
         Hp = creatureData._creatureHp;
         damage = creatureData._creatureDamage;
@@ -37,19 +39,15 @@ public class Creature : MonoBehaviour
         
     }
 
-    void Update()
-    {
-        
-    }
-
     void FixedUpdate()
     {
-        if (Vector2.Distance(transform.position, target.position) < searchDistance)
+        if (Vector2.Distance(transform.position, target.position) < searchDistance && !isActive)
         {
             agent.isStopped = false;
             agent.destination = target.position;
             if (!isAttacked)
             {
+                agent.isStopped = true;
                 isAttacked = true;
                 StartCoroutine(Attack());
             }
@@ -65,18 +63,21 @@ public class Creature : MonoBehaviour
     {
         if (Vector2.Distance(transform.position, target.position) > 0)
         {
-            transform.rotation = Quaternion.Euler(0, 180, 0);
+            transform.rotation = Quaternion.Euler(Vector3.zero);
         }
         else
         {
-            transform.rotation = Quaternion.Euler(Vector3.zero);
+            transform.rotation = Quaternion.Euler(0, 180, 0);
         }
     }
 
     IEnumerator Attack()
     {
+        isActive = true;
         // 스킬을 보유하고있는 스크립트를 불러와 사용후
         GetComponent<CreatureSkill>().ActiveSkill(damage, target, stageIdx);
+        yield return new WaitForSeconds(1f);
+        isActive = false;
         // 일정시간 대기
         for(int i = 0; i < 5; i++)
         {
@@ -84,5 +85,6 @@ public class Creature : MonoBehaviour
         }
         // 스킬을 다시 사용할수있게 변경
         isAttacked = false;
+        
     }
 }
