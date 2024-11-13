@@ -34,10 +34,19 @@ public class CreatureSkill : MonoBehaviour
                 float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
 
                 GameObject line = Instantiate(linePrefeb);
-                line.transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
+                line.transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle + 90f));
                 line.transform.SetParent(transform);
                 line.transform.localPosition = Vector3.zero;
+                StartCoroutine(Wait(2f));
+                GameObject attack2 = Instantiate(attackPrefeb);
+                attack2.transform.position = transform.position;
+                attack2.GetComponent<Projectile>().Pdir = dir;
                 break;
         }
+    }
+
+    IEnumerator Wait(float time)
+    {
+        yield return new WaitForSeconds(time);
     }
 }
