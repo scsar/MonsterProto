@@ -16,7 +16,7 @@ public class TraceLine : MonoBehaviour
     {
         if (!isTouched)
         {
-            transform.localScale += new Vector3(0, 1f, 0);
+            transform.localScale += new Vector3(0, 2f, 0);
         }
     }
 
