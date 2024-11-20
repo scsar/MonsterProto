@@ -12,6 +12,8 @@ public class CreatureSkill : MonoBehaviour
     private GameObject attackPrefeb;
     [SerializeField]
     private GameObject linePrefeb;
+    [SerializeField]
+    private GameObject windPrefeb;
 
     void Update()
     {
@@ -37,6 +39,9 @@ public class CreatureSkill : MonoBehaviour
                 line.transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
                 line.transform.SetParent(transform);
                 line.transform.localPosition = Vector3.zero;
+                break;
+            case 3:
+                GameObject tor = Instantiate(windPrefeb);
                 break;
         }
     }

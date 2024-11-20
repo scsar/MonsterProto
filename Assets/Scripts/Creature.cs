@@ -47,7 +47,8 @@ public class Creature : MonoBehaviour
         {
             agent.isStopped = false;
             agent.destination = target.position;
-            if (!isAttacked)
+            // 특수한 상황에서 stageidx를 0으로 설정해 플레이어에게 접근하는기능만 수행하도록한다.
+            if (!isAttacked && stageIdx != 0)
             {
                 agent.isStopped = true;
                 isAttacked = true;
@@ -55,7 +56,7 @@ public class Creature : MonoBehaviour
             }
         }
         
-        if (Vector2.Distance(transform.position, target.position) < stopDistance)
+        if (Vector2.Distance(transform.position, target.position) <= stopDistance)
         {
             agent.isStopped = true;
         }
