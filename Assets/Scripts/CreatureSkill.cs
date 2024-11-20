@@ -37,6 +37,7 @@ public class CreatureSkill : MonoBehaviour
                 break;
             case 3:
                 GameObject tor = Instantiate(windPrefeb);
+                isFinished =true;
                 break;
 
         }

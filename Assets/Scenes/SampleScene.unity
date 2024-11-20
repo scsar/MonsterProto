@@ -724,7 +724,6 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.00052945316, y: -0.005823791}
-  m_Offset: {x: -0.000000029802322, y: -0.04401526}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -736,8 +735,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   serializedVersion: 2
   m_Size: {x: 0.20022616, y: 0.2746985}
-  m_EdgeRadius: 0
-  m_Size: {x: 0.19525206, y: 0.37196952}
   m_EdgeRadius: 0
 --- !u!1001 &1657178882
 PrefabInstance:
@@ -919,6 +916,7 @@ MonoBehaviour:
   attackPrefeb: {fileID: 8598617322792602657, guid: abb0c413ee8a81b4b8986b1817d415ac, type: 3}
   linePrefeb: {fileID: 2504453675986495225, guid: 5f04d6c89fa202946a8f6a26828d73d9, type: 3}
   windPrefeb: {fileID: 6432291996266128545, guid: 5e2ffe32a68e32549bbe807548b94bb8, type: 3}
+  isFinished: 0
 --- !u!1 &2036834001 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4919776673973904006, guid: b0517cfb6e4bb2344b6da908cc615a16, type: 3}
@@ -974,8 +972,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackPrefeb: {fileID: 4090249425335531296, guid: 0f079429350d7d847a7b51f2078b9060, type: 3}
-  linePrefeb: {fileID: 0}
-  windPrefeb: {fileID: 0}
+  linePrefeb: {fileID: 2504453675986495225, guid: 5f04d6c89fa202946a8f6a26828d73d9, type: 3}
+  windPrefeb: {fileID: 6432291996266128545, guid: 5e2ffe32a68e32549bbe807548b94bb8, type: 3}
   isFinished: 0
 --- !u!1001 &2128371924
 PrefabInstance:
@@ -1047,3 +1045,4 @@ SceneRoots:
   - {fileID: 1657178882}
   - {fileID: 2128371924}
   - {fileID: 330038519}
+  - {fileID: 1432295794}
