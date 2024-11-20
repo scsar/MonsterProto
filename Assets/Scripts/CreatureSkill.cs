@@ -18,10 +18,6 @@ public class CreatureSkill : MonoBehaviour
     [HideInInspector]
     public bool isFinished = false; // 스킬이 종료되었음을 체크하는 bool 구문
 
-    void Update()
-    {
-        
-    }
 
     public void ActiveSkill(float damage, Transform target, int stageIdx)
     {
@@ -36,7 +32,7 @@ public class CreatureSkill : MonoBehaviour
                 StartCoroutine(MultiFire(target, 5));
                 break;
             case 3:
-                GameObject tor = Instantiate(windPrefeb);
+                Instantiate(windPrefeb,transform.position, Quaternion.identity);
                 isFinished =true;
                 break;
 

@@ -9,7 +9,7 @@ public class wind : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Destroy(gameObject, 10f);
     }
 
     // Update is called once per frame
@@ -19,6 +19,10 @@ public class wind : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D other)
     {
-        other.transform.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, windForce), ForceMode2D.Impulse);
+        if (other.transform.CompareTag("Player"))
+        {
+            other.transform.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, windForce), ForceMode2D.Impulse);
+            Destroy(gameObject);
+        }
     }
 }
