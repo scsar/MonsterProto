@@ -8,6 +8,7 @@ TagManager:
   - Vine
   - Ground
   - Dead
+  - Enemy
   layers:
   - Default
   - TransparentFX
