@@ -16,8 +16,8 @@ public class Creature : MonoBehaviour
     private NavMeshAgent agent;
     private Transform target;
 
-    private bool isAttacked;
-    private bool isActive;
+    private bool isAttacked;  // 공격중인 상황에 이중으로 공격을 수행하지않도록 제한
+    private bool isActive;  // 스킬사용이 완료되기 이전에, 몬스터가 움직이지 않도록 제한
 
     private float rotateSpeed = 10f;
     private float Hp;
@@ -53,6 +53,7 @@ public class Creature : MonoBehaviour
     {
         if (Vector2.Distance(transform.position, target.position) < searchDistance && !isActive)
         {
+            // 이동 Animation 활성화
             animator.SetBool("isSearch", true);
             agent.isStopped = false;
             agent.destination = target.position;
@@ -76,6 +77,7 @@ public class Creature : MonoBehaviour
 
     void LateUpdate()
     {
+        // 몬스터가 플레이어를 바라보는것처럼 할수있도록 위치에 따라 rotation
         Vector2 dir = (target.position - transform.position).normalized;
         if (dir.x > 0)
         {
@@ -119,9 +121,11 @@ public class Creature : MonoBehaviour
         }
     }
 
-    private void Die()
+    private IEnumerator Die()
     {
         Debug.Log("Enemy has been defeated!");
+        animator.SetTrigger("Die");
+        yield return new WaitForSeconds(2f);
         Destroy(gameObject);
     }
 
