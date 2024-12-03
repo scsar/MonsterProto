@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting.Antlr3.Runtime;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -24,6 +25,15 @@ public class Creature : MonoBehaviour
     private float damage;
     //몬스터당 고유 숫자를 기입해 해당 숫자에 해당하는 구간에 들어가 스킬 수행할수있게함
     private int creatureNum;
+    private int creatureType;
+
+    
+    [HideInInspector]
+    public float movedir = -0.5f;
+    [HideInInspector]
+    public float moveEuler = 0;
+    [HideInInspector]
+    public bool isGrounded = true;
 
 
     void Start()
@@ -46,6 +56,7 @@ public class Creature : MonoBehaviour
         Hp = creatureData._creatureHp;
         damage = creatureData._creatureDamage;
         creatureNum = creatureData._creatureNumber;
+        creatureType = creatureData._creatureType;
         
     }
 
@@ -72,22 +83,43 @@ public class Creature : MonoBehaviour
         {
             animator.SetBool("isSearch", false);
             agent.isStopped = true;
+            // if (!isAttacked && creatureNum != 0 && creatureType == 0)
+            // {
+            //     agent.isStopped = true;
+            //     isAttacked = true;
+            //     StartCoroutine(Attack());
+            // }
+        }
+
+        if (isGrounded)
+        {
+            isActive = true;
+            transform.Translate(new Vector3(movedir, 0, 0) * Time.deltaTime);
         }
     }
 
     void LateUpdate()
     {
-        // 몬스터가 플레이어를 바라보는것처럼 할수있도록 위치에 따라 rotation
-        Vector2 dir = (target.position - transform.position).normalized;
-        if (dir.x > 0)
+        if (creatureType != 0)
         {
-            dir.x = -dir.x;
-            transform.rotation = Quaternion.Euler(0, -180, dir.x);
+            // 몬스터가 플레이어를 바라보는것처럼 할수있도록 위치에 따라 rotation
+            Vector2 dir = (target.position - transform.position).normalized;
+            if (dir.x > 0)
+            {
+                dir.x = -dir.x;
+                transform.rotation = Quaternion.Euler(0, -180, dir.x);
+            }
+            else
+            {
+                transform.rotation = Quaternion.Euler(0, 0, dir.x);
+            }
         }
-        else
+
+        if (!isGrounded)
         {
-            transform.rotation = Quaternion.Euler(0, 0, dir.x);
+            isGrounded = true;
         }
+        
     }
 
     IEnumerator Attack()
@@ -117,7 +149,7 @@ public class Creature : MonoBehaviour
 
         if (Hp <= 0)
         {
-            Die();
+           StartCoroutine(Die());
         }
     }
 
@@ -135,9 +167,8 @@ public class Creature : MonoBehaviour
             {
                 collision.gameObject.SetActive(false);
                 this.gameObject.SetActive(false);
-
-                
             }
     }
-    
+
+
 }

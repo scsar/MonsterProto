@@ -28,5 +28,13 @@ public class CreatureData : ScriptableObject
         get { return creatureNumber; }
     }
 
+    // 해당 크리처의 타입 (근거리 = 0, 원거리 = 1)
+    [SerializeField]
+    private int creatureType;
+    public int _creatureType
+    {
+        get {return creatureType;}
+    }
+
 
 }

@@ -47,6 +47,10 @@ public class CreatureSkill : MonoBehaviour
                 rangeAttack.transform.Translate(0, -0.4f, 0);
                 isFinished = true;
                 break;
+            case 4:
+                // 근접 돌진 몬스터(몬스터 정면에 플레이어 or 늑대가 포착될경우, 빠른속도로 이동하며 몸통박치기 함)
+                isFinished = true;
+                break;
 
         }
     }

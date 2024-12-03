@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f9a1a36861cd5e849a95eaf8d22964ac, type: 3}
-  m_Name: Creature3
+  m_Name: Creature4
   m_EditorClassIdentifier: 
   creatureHp: 10
   creatureDamage: 1
-  creatureNumber: 3
-  creatureType: 1
+  creatureNumber: 4
+  creatureType: 0

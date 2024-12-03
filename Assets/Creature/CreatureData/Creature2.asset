@@ -15,3 +15,4 @@ MonoBehaviour:
   creatureHp: 10
   creatureDamage: 1
   creatureNumber: 2
+  creatureType: 1
