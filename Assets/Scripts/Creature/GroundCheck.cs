@@ -4,36 +4,30 @@ using UnityEngine;
 
 public class GroundCheck : MonoBehaviour
 {
-    Creature Parent; 
-    // Start is called before the first frame update
+    private Creature parent; 
+    public float groundCheckDistance = 4f; // 지면 감지 거리
+
     void Start()
     {
-        Parent = transform.parent.GetComponent<Creature>();
+        parent = transform.parent.GetComponent<Creature>();
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    void Update()
     {
-        if (collision.transform.CompareTag("Ground"))
+        Vector2 origin = transform.position;
+        RaycastHit2D groundInfo = Physics2D.Raycast(origin, Vector2.down, groundCheckDistance);
+
+        Debug.DrawRay(origin, Vector2.down * groundCheckDistance, Color.red); // 디버그용 Ray 그리기
+        // 지면 체크
+        if (!groundInfo.collider) 
         {
-            Parent.isGrounded = true;
+            Flip();
         }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    private void Flip()
     {
-        if (collision.transform.CompareTag("Ground"))
-        {
-            Debug.Log("turn");
-            // StartCoroutine(Turn());
-            Parent.isGrounded = false;
-            Parent.moveEuler += 180f;
-            Parent.transform.rotation = Quaternion.Euler(0, Parent.moveEuler, 0);
-        }
-    }
-
-    private IEnumerator Turn()
-    {
-        Parent.transform.GetComponent<Creature>().isGrounded = false;
-        yield return new WaitForSeconds(1f);
+        parent.isMovingRight = !parent.isMovingRight; // 이동 방향 반전
+        parent.transform.localScale = new Vector3(-parent.transform.localScale.x, parent.transform.localScale.y, parent.transform.localScale.z);
     }
 }

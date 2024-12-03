@@ -33,11 +33,17 @@ public class Creature : MonoBehaviour
     [HideInInspector]
     public float moveEuler = 0;
     [HideInInspector]
-    public bool isGrounded = true;
+    public bool isMovingRight = true; // 현재 이동 방향
+    private Rigidbody2D rb;
+    public float speed = 2f;
 
 
     void Start()
     {
+        if (GetComponent<Rigidbody2D>() != null)
+        {
+            rb = GetComponent<Rigidbody2D>();
+        }
         if (GetComponent<Animator>() != null)
         {
             animator = GetComponent<Animator>();
@@ -57,7 +63,20 @@ public class Creature : MonoBehaviour
         damage = creatureData._creatureDamage;
         creatureNum = creatureData._creatureNumber;
         creatureType = creatureData._creatureType;
+
+
         
+    }
+
+    void Update()
+    {
+        if (creatureType == 0)
+        {
+            isActive = true;
+            float moveDirection = isMovingRight ? 1f : -1f;
+            rb.velocity = new Vector2(moveDirection, rb.velocity.y);
+        }
+
     }
 
     void FixedUpdate()
@@ -68,7 +87,7 @@ public class Creature : MonoBehaviour
             animator.SetBool("isSearch", true);
             agent.isStopped = false;
             agent.destination = target.position;
-            // 특수한 상황에서 stageidx를 0으로 설정해 플레이어에게 접근하는기능만 수행하도록한다.
+            // 특수한 상황에서 creaturenum을 0으로 설정해 플레이어에게 접근하는기능만 수행하도록한다.
             if (!isAttacked && creatureNum != 0)
             {
                 agent.isStopped = true;
@@ -83,6 +102,7 @@ public class Creature : MonoBehaviour
         {
             animator.SetBool("isSearch", false);
             agent.isStopped = true;
+            // creature가 근접공격형 타입일때 공격코드
             // if (!isAttacked && creatureNum != 0 && creatureType == 0)
             // {
             //     agent.isStopped = true;
@@ -91,11 +111,7 @@ public class Creature : MonoBehaviour
             // }
         }
 
-        if (isGrounded)
-        {
-            isActive = true;
-            transform.Translate(new Vector3(movedir, 0, 0) * Time.deltaTime);
-        }
+
     }
 
     void LateUpdate()
@@ -113,11 +129,6 @@ public class Creature : MonoBehaviour
             {
                 transform.rotation = Quaternion.Euler(0, 0, dir.x);
             }
-        }
-
-        if (!isGrounded)
-        {
-            isGrounded = true;
         }
         
     }

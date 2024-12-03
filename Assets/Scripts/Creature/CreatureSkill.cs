@@ -61,9 +61,11 @@ public class CreatureSkill : MonoBehaviour
         Vector3 direction = target.position - transform.position;
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         GameObject line = Instantiate(linePrefeb);
+
         line.transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle + 90f));
         line.transform.SetParent(transform);
         line.transform.localPosition = Vector3.zero;
+
         for (float i = time; i > 0; i -= 1)
         {
             line.SetActive(false);
@@ -74,6 +76,7 @@ public class CreatureSkill : MonoBehaviour
             line.SetActive(true);
             yield return new WaitForSeconds(0.1f * i );
         }
+
         GameObject attack = Instantiate(attackPrefeb);
         attack.transform.position = transform.position;
         attack.GetComponent<Projectile>().Pdir = direction.normalized;
@@ -90,10 +93,12 @@ public class CreatureSkill : MonoBehaviour
             Vector3 direction = target.position - transform.position;
             float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
             GameObject line = Instantiate(linePrefeb);
+
             line.transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle + 60f + (15f * i)));
             line.transform.SetParent(transform);
             line.transform.localPosition = Vector3.zero;
             lines.Add(line);
+
             yield return new WaitForSeconds(0.3f);
         }
         yield return new WaitForSeconds(1f);
@@ -102,11 +107,11 @@ public class CreatureSkill : MonoBehaviour
         {
             float lineAngle = (lines[i].transform.eulerAngles.z - 90f) * Mathf.Deg2Rad;
             Vector3 direction = new Vector3(Mathf.Cos(lineAngle), Mathf.Sin(lineAngle), 0);
-            // Vector3 direction = lines[i].transform.right;
+            
             GameObject attack = Instantiate(attackPrefeb);
             attack.transform.position = lines[i].transform.position;
-            // attack.transform.rotation = lines[i].transform.rotation;
             attack.GetComponent<Projectile>().Pdir = direction;
+
             yield return new WaitForSeconds(0.5f);
             Destroy(lines[i]);
         }
