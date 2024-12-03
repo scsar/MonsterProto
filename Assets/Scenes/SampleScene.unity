@@ -938,7 +938,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0435945b4adc95141990c32176a9a1d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  groundCheckDistance: 0.5
+  groundCheckDistance: 4
 --- !u!1001 &929878932076853786
 PrefabInstance:
   m_ObjectHideFlags: 0

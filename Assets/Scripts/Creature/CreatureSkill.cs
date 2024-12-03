@@ -49,7 +49,7 @@ public class CreatureSkill : MonoBehaviour
                 break;
             case 4:
                 // 근접 돌진 몬스터(몬스터 정면에 플레이어 or 늑대가 포착될경우, 빠른속도로 이동하며 몸통박치기 함)
-                isFinished = true;
+                StartCoroutine(MeleeAttack((GetComponent<Creature>().isMovingRight ? 1f : -1f)));
                 break;
 
         }
@@ -117,5 +117,12 @@ public class CreatureSkill : MonoBehaviour
         }
         isFinished = true;
 
+    }
+
+    IEnumerator MeleeAttack(float movedir)
+    {
+        GetComponent<Rigidbody2D>().AddForce(new Vector2(5 * movedir, 1), ForceMode2D.Impulse);
+        yield return new WaitForSeconds(1f);
+        isFinished = true;
     }
 }

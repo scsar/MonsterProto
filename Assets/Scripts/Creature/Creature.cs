@@ -70,18 +70,17 @@ public class Creature : MonoBehaviour
 
     void Update()
     {
-        if (creatureType == 0)
+        if (creatureType == 0 && !isActive)
         {
-            isActive = true;
             float moveDirection = isMovingRight ? 1f : -1f;
-            rb.velocity = new Vector2(moveDirection, rb.velocity.y);
+            rb.velocity = new Vector2(moveDirection * speed, rb.velocity.y);
         }
 
     }
 
     void FixedUpdate()
     {
-        if (Vector2.Distance(transform.position, target.position) < searchDistance && !isActive)
+        if (Vector2.Distance(transform.position, target.position) < searchDistance && !isActive && creatureType != 0)
         {
             // 이동 Animation 활성화
             animator.SetBool("isSearch", true);
@@ -97,18 +96,21 @@ public class Creature : MonoBehaviour
             agent.isStopped = false;
             agent.destination = target.position;
         }
+        else if (creatureType == 0 && !isActive)
+        {
+            // creature가 근접공격형 타입일때 공격코드
+            if (!isAttacked && creatureNum != 0 && creatureType == 0)
+            {
+                Debug.Log("근접 공격");
+                isAttacked = true;
+                StartCoroutine(Attack());
+            }
+        }
         
         if (Vector2.Distance(transform.position, target.position) < stopDistance || isActive)
         {
             animator.SetBool("isSearch", false);
             agent.isStopped = true;
-            // creature가 근접공격형 타입일때 공격코드
-            // if (!isAttacked && creatureNum != 0 && creatureType == 0)
-            // {
-            //     agent.isStopped = true;
-            //     isAttacked = true;
-            //     StartCoroutine(Attack());
-            // }
         }
 
 
@@ -135,6 +137,7 @@ public class Creature : MonoBehaviour
 
     IEnumerator Attack()
     {
+        Debug.Log("Attack");
         animator.SetTrigger("Attack");
         animator.SetBool("isAttack", true);
         isActive = true;
