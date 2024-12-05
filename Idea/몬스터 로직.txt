@@ -1,0 +1,15 @@
+몬스터는 Player태그가 붙어있는 오브젝트를 추적함
+추적 알고리즘은 NavMesh를 통해서 진행하며, NavMesh를 사용하기위해서는 패키지매니저에서 AI기능다운과 NavMeshPlus 다운필요
+https://github.com/h8man/NavMeshPlus.git (navmeshPlus)
+ 이후 몬스터의 추적을 위해서 프리팹 폴더의 NavMesh2D오브젝트와 field오브젝트가 필요하며, 
+우선 Field의 boxcollider로 원하는만큼 범위를 조정하고, NavMesh2D의 NavigationCollectSource2D에서 RotateSurface to XY버튼을 한번클릭한후 Navigation Surface의 Bake버튼 클릭.
+
+근접 몬스터의 경우 NavMesh를 사용하지않고 따로 구현된 로직에 따라 동작된다.
+
+몬스터 1 : 투사체 투척
+몬스터 2 : 투사체 흩뿌리기, 토네이도 투척(플레이어 공중으로 날림)
+몬스터 3 : 땅바닥에서 바람튀어나와서 때리기
+몬스터 4 : 근접 몬스터로 Ground를 돌아다니다가 플레이어 발견시 돌진
+
+
+
