@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -49,9 +50,30 @@ public class CreatureSkill : MonoBehaviour
                 break;
             case 4:
                 // 근접 돌진 몬스터(몬스터 정면에 플레이어 or 늑대가 포착될경우, 빠른속도로 이동하며 몸통박치기 함)
-                StartCoroutine(MeleeAttack((GetComponent<Creature>().isMovingRight ? 1f : -1f)));
+                if (SearchMelee()) 
+                {
+                    StartCoroutine(MeleeAttack((GetComponent<Creature>().isMovingRight ? 1f : -1f)));
+                }
+                else
+                {
+                    isFinished = true;
+                }
                 break;
-
+            case 5:
+                // 근접 방어 몬스터 (플레이어가 정면에 포착될경우 방어자세 취한다. )
+                if (SearchMelee()) 
+                {
+                    StartCoroutine(GuardMelee());
+                }
+                else
+                {
+                    isFinished = true;
+                }
+                break;
+            case 6:
+                // 근접 공격 몬스터 (그냥 심플하게 접근하고 공격)
+                StartCoroutine(MeleeNormalAttack(target));
+                break;
         }
     }
 
@@ -121,8 +143,53 @@ public class CreatureSkill : MonoBehaviour
 
     IEnumerator MeleeAttack(float movedir)
     {
+        yield return new WaitForSeconds(1f);
+        GetComponent<Animator>().SetTrigger("Attack");
+        GetComponent<Animator>().SetBool("isAttack",true);
         GetComponent<Rigidbody2D>().AddForce(new Vector2(5 * movedir, 1), ForceMode2D.Impulse);
         yield return new WaitForSeconds(1f);
         isFinished = true;
+    }
+
+    IEnumerator GuardMelee()
+    {
+        GetComponent<Animator>().SetBool("isGuard", true);
+        GetComponent<Animator>().SetTrigger("Guard");
+        //TODO
+        // 몬스터 피격 기능 구현완료시 무적 기능 삽입
+        yield return new WaitForSeconds(3f);
+        GetComponent<Animator>().SetBool("isGuard", false);
+        isFinished = true;
+    }
+
+    IEnumerator MeleeNormalAttack(Transform target)
+    {
+        Debug.Log(Mathf.Abs(Vector2.Distance(transform.position, target.position)));
+        if (Mathf.Abs(Vector2.Distance(transform.position, target.position)) < 4f)
+        {
+            Debug.Log("melee");
+            // GetComponent<Animator>().SetTrigger("Attack");
+            transform.GetChild(0).gameObject.SetActive(true);
+            yield return new WaitForSeconds(1f);
+            transform.GetChild(0).gameObject.SetActive(false);
+        }
+        isFinished = true;
+    }
+
+    private bool SearchMelee()
+    {
+        Vector2 origin = new Vector2(transform.GetChild(1).position.x, transform.GetChild(1).transform.position.y);
+        Vector2 forwardDirection = GetComponent<Creature>().isMovingRight ? transform.right : -transform.right;
+        RaycastHit2D groundInfo = Physics2D.Raycast(origin, forwardDirection, 20f);
+        Debug.DrawRay(origin, forwardDirection * 20f, Color.red); // 디버그용 Ray 그리기
+        // 지면 체크
+        if (groundInfo.collider != null && groundInfo.collider.CompareTag("Player")) 
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
 }

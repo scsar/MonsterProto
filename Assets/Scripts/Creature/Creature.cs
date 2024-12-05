@@ -98,10 +98,10 @@ public class Creature : MonoBehaviour
         }
         else if (creatureType == 0 && !isActive)
         {
+            animator.SetBool("isSearch", true);
             // creature가 근접공격형 타입일때 공격코드
             if (!isAttacked && creatureNum != 0 && creatureType == 0)
             {
-                Debug.Log("근접 공격");
                 isAttacked = true;
                 StartCoroutine(Attack());
             }
@@ -137,9 +137,12 @@ public class Creature : MonoBehaviour
 
     IEnumerator Attack()
     {
+        if (creatureType != 0)
+        {
+            animator.SetTrigger("Attack");
+            animator.SetBool("isAttack", true);
+        }
         Debug.Log("Attack");
-        animator.SetTrigger("Attack");
-        animator.SetBool("isAttack", true);
         isActive = true;
         // 스킬을 보유하고있는 스크립트를 불러와 사용후
         GetComponent<CreatureSkill>().ActiveSkill(damage, target, creatureNum);
