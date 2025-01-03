@@ -1,0 +1,7650 @@
+fileFormatVersion: 2
+guid: 27c75efd75cc348489baa51552f425c5
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_0
+    originalName: 
+    pivot: {x: 0.53061235, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 527
+      y: 1237
+      width: 49
+      height: 44
+    spriteID: bc151b007a84a0b4a942dcf938ecc46b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 527, y: 1237}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_1
+    originalName: 
+    pivot: {x: 0.5208333, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 527
+      y: 1497
+      width: 48
+      height: 44
+    spriteID: cc9e6490fd28d064599d799266e954ec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 527, y: 1497}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_2
+    originalName: 
+    pivot: {x: 0.53061235, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 527
+      y: 1289
+      width: 49
+      height: 44
+    spriteID: 0e6bb61503996654e8ad48b7ce5efce5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 527, y: 1289}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_3
+    originalName: 
+    pivot: {x: 0.5208333, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 527
+      y: 1549
+      width: 48
+      height: 44
+    spriteID: 7a1d58ea34f69a54fa84e39635be8260
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 527, y: 1549}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_4
+    originalName: 
+    pivot: {x: 0.5208333, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 527
+      y: 1601
+      width: 48
+      height: 44
+    spriteID: 975aacab0ceaafa499d480dfb32d1a16
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 527, y: 1601}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_5
+    originalName: 
+    pivot: {x: 0.5111111, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 583
+      y: 1497
+      width: 45
+      height: 44
+    spriteID: 847f8f584d0729047a9e2624de942100
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 583, y: 1497}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_6
+    originalName: 
+    pivot: {x: 0.5111111, y: -0.023255814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 473
+      y: 1822
+      width: 45
+      height: 43
+    spriteID: 7e80a1604234d0d429337558a6a471fa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 473, y: 1822}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_7
+    originalName: 
+    pivot: {x: 0.48888895, y: -0.023255814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 473
+      y: 1873
+      width: 45
+      height: 43
+    spriteID: bc002e340939fc2448353b70e4d05de8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 473, y: 1873}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_8
+    originalName: 
+    pivot: {x: 0.48888895, y: -0.023255814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 473
+      y: 1924
+      width: 45
+      height: 43
+    spriteID: b06f7befc84ed37459ffe2704ceb2752
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 473, y: 1924}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_9
+    originalName: 
+    pivot: {x: 0.48888895, y: -0.023255814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 473
+      y: 1975
+      width: 45
+      height: 43
+    spriteID: 16d8539671e78184b82e88b1e2beb97d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 473, y: 1975}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_10
+    originalName: 
+    pivot: {x: 0.49999994, y: -0.023255814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 473
+      y: 1662
+      width: 46
+      height: 43
+    spriteID: 3bf5872f9ceac324895ebed971aaea84
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 473, y: 1662}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_11
+    originalName: 
+    pivot: {x: 0.5208333, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 527
+      y: 1653
+      width: 48
+      height: 44
+    spriteID: 07eb3d677c012044bb615e23aed6c057
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 527, y: 1653}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_12
+    originalName: 
+    pivot: {x: 0.50000006, y: -0.023255814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 175
+      y: 864
+      width: 48
+      height: 43
+    spriteID: 78231318da95fa042ac016a81318268d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 175, y: 864}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_13
+    originalName: 
+    pivot: {x: 0.509804, y: -0.18421052}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 175
+      y: 1294
+      width: 51
+      height: 38
+    spriteID: bf5c29f732e4a7d4ab414642b0bf4321
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 175, y: 1294}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_14
+    originalName: 
+    pivot: {x: 0.5217392, y: -0.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 636
+      y: 871
+      width: 46
+      height: 36
+    spriteID: 5f453784cb889374ca444041b28ba041
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 636, y: 871}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_15
+    originalName: 
+    pivot: {x: 0.46808517, y: -0.023255814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 175
+      y: 1049
+      width: 47
+      height: 43
+    spriteID: a8672d37e02a69f4f99dc8404982a711
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 175, y: 1049}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_16
+    originalName: 
+    pivot: {x: 0.44186038, y: -0.023809524}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 584
+      y: 1445
+      width: 43
+      height: 42
+    spriteID: 26ed6fdb8d562d1438928507f270e6c8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 584, y: 1445}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_17
+    originalName: 
+    pivot: {x: 0.4318181, y: -0.023255814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 584
+      y: 1393
+      width: 44
+      height: 43
+    spriteID: b4d3511d25924e848895f1c1825be83c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 584, y: 1393}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_18
+    originalName: 
+    pivot: {x: 0.46808517, y: -0.18421052}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 175
+      y: 1901
+      width: 47
+      height: 38
+    spriteID: 3b25c18e798c83d4d9bbbd20303aec98
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 175, y: 1901}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_19
+    originalName: 
+    pivot: {x: 0.48888895, y: -0.125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 175
+      y: 1737
+      width: 45
+      height: 40
+    spriteID: 85aa81bdf29a8dc429662c5f4a1fc48a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 175, y: 1737}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_20
+    originalName: 
+    pivot: {x: 0.45652166, y: -0.023255814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 473
+      y: 1713
+      width: 46
+      height: 43
+    spriteID: 452ea8865507b9043b27a86c1557fa5e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 473, y: 1713}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_21
+    originalName: 
+    pivot: {x: 0.45652166, y: -0.023809524}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 175
+      y: 1391
+      width: 46
+      height: 42
+    spriteID: 77af3bc664409e34e9324a9d65d181a0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 175, y: 1391}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_22
+    originalName: 
+    pivot: {x: 0.5555555, y: -0.027777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 636
+      y: 1212
+      width: 45
+      height: 36
+    spriteID: 06542c03c32003e41b0629c428ccbfa9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 636, y: 1212}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_23
+    originalName: 
+    pivot: {x: 0.59183675, y: -0.028571429}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 636
+      y: 655
+      width: 49
+      height: 35
+    spriteID: 8d09ee9a50a1efd428a7f18af467a46a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 636, y: 655}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_24
+    originalName: 
+    pivot: {x: 0.4651163, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 583
+      y: 1773
+      width: 43
+      height: 48
+    spriteID: a878c64a29eda494fb6da894cc819ad6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 583, y: 1773}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_25
+    originalName: 
+    pivot: {x: 0.37837833, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 175
+      y: 1993
+      width: 37
+      height: 48
+    spriteID: b0660a12a0fcc8c48a22bfb7292aac1c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 175, y: 1993}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_26
+    originalName: 
+    pivot: {x: 0.47727266, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 527
+      y: 1705
+      width: 44
+      height: 48
+    spriteID: 5a9ee21db3692a54e9b733d6af514f3e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 527, y: 1705}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_27
+    originalName: 
+    pivot: {x: 0.4651163, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 583
+      y: 1829
+      width: 43
+      height: 48
+    spriteID: 0a00e1c19964988459d854b3580e4c8e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 583, y: 1829}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_28
+    originalName: 
+    pivot: {x: 0.37837833, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 636
+      y: 295
+      width: 37
+      height: 48
+    spriteID: 5c1afdd3385176e4a9525adb6a4559ff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 636, y: 295}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_29
+    originalName: 
+    pivot: {x: 0.47727266, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 527
+      y: 1761
+      width: 44
+      height: 48
+    spriteID: 432b9bb7f1ec43646a1a60fda3ebc0db
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 527, y: 1761}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_30
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.15555556}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 583
+      y: 1997
+      width: 44
+      height: 45
+    spriteID: 200c4575f5a9b704f8ab35af1f05d201
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 583, y: 1997}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_31
+    originalName: 
+    pivot: {x: 0.48936167, y: -0.23809524}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 175
+      y: 1150
+      width: 47
+      height: 42
+    spriteID: 836189c5928b76b4998ee02c4ad2f2f5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 175, y: 1150}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_32
+    originalName: 
+    pivot: {x: 0.4716981, y: -0.17021276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 527
+      y: 811
+      width: 53
+      height: 47
+    spriteID: 5e09773c8e249eb4da7c7eab6c90da88
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 527, y: 811}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_33
+    originalName: 
+    pivot: {x: 0.54347825, y: -0.107142866}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 473
+      y: 1208
+      width: 46
+      height: 56
+    spriteID: 412bf59f3618e9d43834a26d39431f62
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 473, y: 1208}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_34
+    originalName: 
+    pivot: {x: 0.37500006, y: -0.03846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 425
+      y: 1208
+      width: 40
+      height: 78
+    spriteID: c19ebc45e4c39f244823e04fe72ce4af
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 425, y: 1208}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_35
+    originalName: 
+    pivot: {x: 0.30555558, y: -0.03846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 425
+      y: 1727
+      width: 36
+      height: 78
+    spriteID: 332658d467a52274d8a01f52db4a9f23
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 425, y: 1727}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_36
+    originalName: 
+    pivot: {x: 0.34210533, y: -0.037974685}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 425
+      y: 1466
+      width: 38
+      height: 79
+    spriteID: a70e3660f9b156a4a978f447b4aa1ca2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 425, y: 1466}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_37
+    originalName: 
+    pivot: {x: 0.37500006, y: -0.03846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 425
+      y: 1294
+      width: 40
+      height: 78
+    spriteID: 818dd943ad6397949bdb244ca84b874d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 425, y: 1294}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_38
+    originalName: 
+    pivot: {x: 0.30555558, y: -0.03846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 425
+      y: 1813
+      width: 36
+      height: 78
+    spriteID: ccd4793cb9286424797e1cf782eac4ea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 425, y: 1813}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_39
+    originalName: 
+    pivot: {x: 0.34210533, y: -0.037974685}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 425
+      y: 1553
+      width: 38
+      height: 79
+    spriteID: c4f792e2284cc694583726d005923ba0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 425, y: 1553}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_40
+    originalName: 
+    pivot: {x: 0.34146336, y: -0.014705882}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 350
+      y: 1450
+      width: 41
+      height: 68
+    spriteID: be25be2ca8d650446ad4b860b29cb162
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 350, y: 1450}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_41
+    originalName: 
+    pivot: {x: 0.4561404, y: -0.027777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 175
+      y: 915
+      width: 57
+      height: 36
+    spriteID: 0bf58d7f5dcdcc142990dfd6a7d66fef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 175, y: 915}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_42
+    originalName: 
+    pivot: {x: 0.48979598, y: -0.028571429}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 636
+      y: 698
+      width: 49
+      height: 35
+    spriteID: bca5a549f9d3aa74aa416a4eae8c8988
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 636, y: 698}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_43
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 636
+      y: 463
+      width: 44
+      height: 40
+    spriteID: f4bc17e110282524f8c664b4a6960a71
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 636, y: 463}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_44
+    originalName: 
+    pivot: {x: 0.5555555, y: -0.027777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 636
+      y: 1256
+      width: 45
+      height: 36
+    spriteID: 96df1fa0bc265c748b89f217c82f2643
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 636, y: 1256}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_45
+    originalName: 
+    pivot: {x: 0.59183675, y: -0.028571429}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 636
+      y: 741
+      width: 49
+      height: 35
+    spriteID: b23afe5a1da516244b40beb2027bd792
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 636, y: 741}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_46
+    originalName: 
+    pivot: {x: 0.4651163, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 583
+      y: 1885
+      width: 43
+      height: 48
+    spriteID: 264bcc6538b47114c882903e9f08fd27
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 583, y: 1885}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_47
+    originalName: 
+    pivot: {x: 0.37837833, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 636
+      y: 351
+      width: 37
+      height: 48
+    spriteID: f580d3df70c2ab7449b81dd453a77457
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 636, y: 351}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_48
+    originalName: 
+    pivot: {x: 0.47727266, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 527
+      y: 1817
+      width: 44
+      height: 48
+    spriteID: a2b014516412b7a4cb7498f73d2d9e74
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 527, y: 1817}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_49
+    originalName: 
+    pivot: {x: 0.4651163, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 583
+      y: 1941
+      width: 43
+      height: 48
+    spriteID: 58fb9ee1d319b204bbc937a758969001
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 583, y: 1941}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_50
+    originalName: 
+    pivot: {x: 0.37837833, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 636
+      y: 407
+      width: 37
+      height: 48
+    spriteID: 97083c1c27565684bbaf830b57c16ecc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 636, y: 407}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_51
+    originalName: 
+    pivot: {x: 0.47727266, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 527
+      y: 1873
+      width: 44
+      height: 48
+    spriteID: 06152075b43bbba4abbac3fc7c6acd30
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 527, y: 1873}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_52
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.15555556}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 473
+      y: 1609
+      width: 44
+      height: 45
+    spriteID: 24b22af221676e04098fb85db02db423
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 473, y: 1609}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_53
+    originalName: 
+    pivot: {x: 0.47916663, y: -0.23809524}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 175
+      y: 1100
+      width: 48
+      height: 42
+    spriteID: 08585a7a811057c4595342d716440ccb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 175, y: 1100}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_54
+    originalName: 
+    pivot: {x: 0.49122798, y: -0.18181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 527
+      y: 759
+      width: 57
+      height: 44
+    spriteID: 1a0cc241c1b2dc54fae7c5f769fddb9f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 527, y: 759}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_55
+    originalName: 
+    pivot: {x: 0.48214287, y: -0.18181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 527
+      y: 1041
+      width: 56
+      height: 44
+    spriteID: 94c4bd4e7d12bde479443ab6b205aabe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 527, y: 1041}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_56
+    originalName: 
+    pivot: {x: 0.5, y: -0.18181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 527
+      y: 707
+      width: 58
+      height: 44
+    spriteID: 0b24827734a20244fb46876afcadecbe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 527, y: 707}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_57
+    originalName: 
+    pivot: {x: 0.35802472, y: -0.019607844}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 425
+      y: 528
+      width: 81
+      height: 51
+    spriteID: d342a1e6f01ef4a47b1bb0f566ed705b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 425, y: 528}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_58
+    originalName: 
+    pivot: {x: 0.35714284, y: -0.01923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 425
+      y: 408
+      width: 84
+      height: 52
+    spriteID: 86772e06842828a4e8f40c751eecd4b5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 425, y: 408}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_59
+    originalName: 
+    pivot: {x: 0.30000004, y: -0.01923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 425
+      y: 468
+      width: 80
+      height: 52
+    spriteID: bd23823259e8b4342ac7d1a46289b763
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 425, y: 468}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_60
+    originalName: 
+    pivot: {x: 0.29411763, y: -0.016949153}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 425
+      y: 341
+      width: 85
+      height: 59
+    spriteID: 7734962010f5f99498c45482c9c299a8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 425, y: 341}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_61
+    originalName: 
+    pivot: {x: 0.25, y: -0.016393442}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 350
+      y: 211
+      width: 100
+      height: 61
+    spriteID: 8cc705bb80d26ec49815a46e5044bec5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 350, y: 211}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_62
+    originalName: 
+    pivot: {x: 0.1666667, y: -0.0125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1714
+      width: 90
+      height: 80
+    spriteID: 5ecfb2152b2c14145aa8fdf0c83b075b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1714}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_63
+    originalName: 
+    pivot: {x: 0.12790698, y: -0.0125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 175
+      y: 133
+      width: 86
+      height: 80
+    spriteID: 6c917e1c10dc5004d9e048c65be84afb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 175, y: 133}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_64
+    originalName: 
+    pivot: {x: 0.1477273, y: -0.012345679}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1802
+      width: 88
+      height: 81
+    spriteID: 7e1345106a853c94f81f4c117939346b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1802}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_65
+    originalName: 
+    pivot: {x: 0.37500006, y: -0.03846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 425
+      y: 1380
+      width: 40
+      height: 78
+    spriteID: a857b0f846dfc2e408d7b9061c35f35c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 425, y: 1380}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_66
+    originalName: 
+    pivot: {x: 0.30555558, y: -0.03846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 425
+      y: 1899
+      width: 36
+      height: 78
+    spriteID: 757eef0bd6f294b4a81610c652caaac9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 425, y: 1899}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_67
+    originalName: 
+    pivot: {x: 0.34210533, y: -0.037974685}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 425
+      y: 1640
+      width: 38
+      height: 79
+    spriteID: 3a2502e948834cb44b0d2ee6ea6ccd1b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 425, y: 1640}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_68
+    originalName: 
+    pivot: {x: 0.34146336, y: -0.014705882}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 350
+      y: 1526
+      width: 41
+      height: 68
+    spriteID: 10d30df8b5f13fd4c9bf7a4204efb1e5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 350, y: 1526}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_69
+    originalName: 
+    pivot: {x: 0.4561404, y: -0.027777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 175
+      y: 959
+      width: 57
+      height: 36
+    spriteID: 071eed5fe1440c646a07ddefa41d845a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 175, y: 959}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_70
+    originalName: 
+    pivot: {x: 0.48979598, y: -0.028571429}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 636
+      y: 784
+      width: 49
+      height: 35
+    spriteID: 04e13912b366ada49bf564884f96594e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 636, y: 784}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_71
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 636
+      y: 511
+      width: 44
+      height: 40
+    spriteID: 4232aee340d0171408be217c89d8dd74
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 636, y: 511}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_72
+    originalName: 
+    pivot: {x: 0.40740746, y: -0.02631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 175
+      y: 1003
+      width: 54
+      height: 38
+    spriteID: 08406f7259f4f3042a20f71fe4c46aeb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 175, y: 1003}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_73
+    originalName: 
+    pivot: {x: 0.4871794, y: -0.033333335}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 636
+      y: 1948
+      width: 39
+      height: 30
+    spriteID: 43c9cb46f2e1aa8449a05d0214e4cca2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 636, y: 1948}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_74
+    originalName: 
+    pivot: {x: 0.5526315, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 636
+      y: 1986
+      width: 38
+      height: 28
+    spriteID: be2202f96bab0ff48ba0de4d8101949d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 636, y: 1986}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_75
+    originalName: 
+    pivot: {x: 0.7619047, y: -0.03125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 636
+      y: 1870
+      width: 42
+      height: 32
+    spriteID: 25fb242033e9a9448a78f7ef9373e4ba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 636, y: 1870}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_76
+    originalName: 
+    pivot: {x: 0.7499999, y: -0.03846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 249
+      y: 282
+      width: 40
+      height: 26
+    spriteID: 6454003757e41084387b20437e088bf1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 249, y: 282}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_77
+    originalName: 
+    pivot: {x: 0.7380953, y: -0.033333335}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 636
+      y: 1910
+      width: 42
+      height: 30
+    spriteID: d34c20f4cc7890d4196e9975110a8eb1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 636, y: 1910}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_78
+    originalName: 
+    pivot: {x: 0.5813953, y: -0.028571429}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 636
+      y: 1743
+      width: 43
+      height: 35
+    spriteID: 77367aeee2cd48c40b54da7e6e46691d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 636, y: 1743}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_79
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 636
+      y: 559
+      width: 44
+      height: 40
+    spriteID: 410d272ff796b7940bbdba752e8122ba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 636, y: 559}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_80
+    originalName: 
+    pivot: {x: 0.47272733, y: -0.022222223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 527
+      y: 988
+      width: 55
+      height: 45
+    spriteID: 90c4970c438d1bd4b86623b9e07fa512
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 527, y: 988}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_81
+    originalName: 
+    pivot: {x: 0.53521127, y: -0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 637
+      y: 192
+      width: 71
+      height: 40
+    spriteID: d11f70cff2307c3459d09b3e411a9566
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 637, y: 192}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_82
+    originalName: 
+    pivot: {x: 0.5285714, y: -0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 83
+      y: 2004
+      width: 70
+      height: 40
+    spriteID: dd2b29adf294ad64fabddebaf817d810
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 83, y: 2004}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_83
+    originalName: 
+    pivot: {x: 0.51470596, y: -0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 527
+      y: 490
+      width: 68
+      height: 40
+    spriteID: 72e90f1aef50d944d8c25c3a45cb60d3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 527, y: 490}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_84
+    originalName: 
+    pivot: {x: 0.5285714, y: -0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 527
+      y: 346
+      width: 70
+      height: 40
+    spriteID: d0726278d6217f0429ffe771c03e7316
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 527, y: 346}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_85
+    originalName: 
+    pivot: {x: 0.53521127, y: -0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2004
+      width: 71
+      height: 40
+    spriteID: 6849b822279c50f43b1833797cfa04b2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2004}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_86
+    originalName: 
+    pivot: {x: 0.5285714, y: -0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 527
+      y: 394
+      width: 70
+      height: 40
+    spriteID: e6213c57fe7c7f64fbf4fc35909c082b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 527, y: 394}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_87
+    originalName: 
+    pivot: {x: 0.51470596, y: -0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 527
+      y: 538
+      width: 68
+      height: 40
+    spriteID: b965a02c4b1472944aa99c99ea2ebf6a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 527, y: 538}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_88
+    originalName: 
+    pivot: {x: 0.5285714, y: -0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 527
+      y: 442
+      width: 70
+      height: 40
+    spriteID: 6672aef2f0fa31f45a052be0a8cad2f5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 527, y: 442}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_89
+    originalName: 
+    pivot: {x: 0.48076922, y: -0.024390243}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 659
+      y: 90
+      width: 52
+      height: 41
+    spriteID: b5491c4099d8e6842b80e639857c43f9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 659, y: 90}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_90
+    originalName: 
+    pivot: {x: 0.5813953, y: -0.028571429}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 636
+      y: 1786
+      width: 43
+      height: 35
+    spriteID: 980416c4626aa8440986cb048c2630bc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 636, y: 1786}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_91
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 636
+      y: 607
+      width: 44
+      height: 40
+    spriteID: 1d594f7564109ce42859f1c93481b5d8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 636, y: 607}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_92
+    originalName: 
+    pivot: {x: 0.53061235, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 527
+      y: 1341
+      width: 49
+      height: 44
+    spriteID: 30ceec162074b5d49b92788bb3c3b31c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 527, y: 1341}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_93
+    originalName: 
+    pivot: {x: 0.49999994, y: -0.023255814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 175
+      y: 1584
+      width: 42
+      height: 43
+    spriteID: 0be0c9675a09a6243afdfe68ea9a9d2f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 175, y: 1584}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_94
+    originalName: 
+    pivot: {x: 0.54347825, y: -0.023809524}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 175
+      y: 1441
+      width: 46
+      height: 42
+    spriteID: 20a8abda9b7a05640b49b69da1c5e1fa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 175, y: 1441}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_95
+    originalName: 
+    pivot: {x: 0.54347825, y: -0.023809524}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 175
+      y: 1491
+      width: 46
+      height: 42
+    spriteID: 7ad08ba38b75b9c4783628953887bda6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 175, y: 1491}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_96
+    originalName: 
+    pivot: {x: 0.41860464, y: -0.023809524}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 175
+      y: 1635
+      width: 43
+      height: 42
+    spriteID: 74d4075bbc58dfe488202991d6478938
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 175, y: 1635}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_97
+    originalName: 
+    pivot: {x: 0.2253521, y: -0.023809524}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 641
+      y: 141
+      width: 71
+      height: 42
+    spriteID: cac2b5ea359878e41922780d18da0ee1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 641, y: 141}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_98
+    originalName: 
+    pivot: {x: -0.07999992, y: -0.023809524}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 637
+      y: 244
+      width: 75
+      height: 42
+    spriteID: 41705038570322848a1d045b8ddec80e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 637, y: 244}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_99
+    originalName: 
+    pivot: {x: -0.26984134, y: -0.023255814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 350
+      y: 1785
+      width: 63
+      height: 43
+    spriteID: 7f418703643982f46824c8d667216c11
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 350, y: 1785}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_100
+    originalName: 
+    pivot: {x: -0.26984134, y: -0.023255814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 350
+      y: 1836
+      width: 63
+      height: 43
+    spriteID: 3b828c1b670014446a18c4ff5822ca78
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 350, y: 1836}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_101
+    originalName: 
+    pivot: {x: 0.23684211, y: -0.023809524}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 590
+      y: 988
+      width: 38
+      height: 42
+    spriteID: ceef7f2c1e3bb7641aa246045ff58ecd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 590, y: 988}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_102
+    originalName: 
+    pivot: {x: 0.5208333, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 527
+      y: 1929
+      width: 48
+      height: 44
+    spriteID: 275392e87313eff46ae5b7cbec0caa48
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 527, y: 1929}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_103
+    originalName: 
+    pivot: {x: 0.52272725, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 584
+      y: 1237
+      width: 44
+      height: 44
+    spriteID: 437d0e590132baf45b23a150cc848ba5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 584, y: 1237}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_104
+    originalName: 
+    pivot: {x: 0.4782609, y: -0.021276595}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 473
+      y: 1392
+      width: 46
+      height: 47
+    spriteID: 22dca95b966b7cb439db95c6464fa709
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 473, y: 1392}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_105
+    originalName: 
+    pivot: {x: 0.44680846, y: -0.016393442}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 350
+      y: 892
+      width: 47
+      height: 61
+    spriteID: 591576ca62d906c48abd979881a537d0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 350, y: 892}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_106
+    originalName: 
+    pivot: {x: 0.36538455, y: -0.01754386}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 458
+      y: 211
+      width: 52
+      height: 57
+    spriteID: f12e394928cf0394383f9c221b4c134f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 458, y: 211}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_107
+    originalName: 
+    pivot: {x: 0.36538455, y: -0.018867925}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 350
+      y: 1602
+      width: 52
+      height: 53
+    spriteID: 0d9934dac033fa445b0af1225cabad2a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 350, y: 1602}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_108
+    originalName: 
+    pivot: {x: 0.36538455, y: -0.01923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 350
+      y: 1887
+      width: 52
+      height: 52
+    spriteID: e5c5384a248efac4387e78c68b497e5d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 350, y: 1887}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_109
+    originalName: 
+    pivot: {x: 0.42105266, y: -0.02}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 350
+      y: 1223
+      width: 57
+      height: 50
+    spriteID: f7e009fd13b4f414b970d09abe710546
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 350, y: 1223}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_110
+    originalName: 
+    pivot: {x: 0.44067803, y: -0.02}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 350
+      y: 718
+      width: 59
+      height: 50
+    spriteID: ada8ebdac1943384fa9529bef9438b44
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 350, y: 718}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_111
+    originalName: 
+    pivot: {x: 0.32394361, y: -0.018867925}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 425
+      y: 587
+      width: 71
+      height: 53
+    spriteID: 67dd7085ed0c8c2419e0fb43ac789451
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 425, y: 587}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_112
+    originalName: 
+    pivot: {x: 0.31428576, y: -0.018867925}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 425
+      y: 709
+      width: 70
+      height: 53
+    spriteID: 842ad3c5e3870344abbf76f30506ca04
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 425, y: 709}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_113
+    originalName: 
+    pivot: {x: 0.29577458, y: -0.018867925}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 425
+      y: 648
+      width: 71
+      height: 53
+    spriteID: 62044b26c2b29c24087a1633bb6d186f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 425, y: 648}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_114
+    originalName: 
+    pivot: {x: 0.37999994, y: -0.018867925}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 527
+      y: 646
+      width: 50
+      height: 53
+    spriteID: 993437aa7a96ada47b7f8435a7ed6548
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 527, y: 646}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_115
+    originalName: 
+    pivot: {x: 0.4749999, y: -0.02173913}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 588
+      y: 811
+      width: 40
+      height: 46
+    spriteID: 6962958fbf39a534aa83d52b8a07b75a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 588, y: 811}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_116
+    originalName: 
+    pivot: {x: 0.46341455, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 175
+      y: 1685
+      width: 41
+      height: 44
+    spriteID: 6ae29ee3a4a89bb4ea79a7a752466e35
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 175, y: 1685}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_117
+    originalName: 
+    pivot: {x: 0.5217392, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 473
+      y: 1557
+      width: 46
+      height: 44
+    spriteID: 024c420c71df30347b91e266489a164b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 473, y: 1557}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_118
+    originalName: 
+    pivot: {x: 0.52272725, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 584
+      y: 1289
+      width: 44
+      height: 44
+    spriteID: 7ab73887ceeb727428d2e378165e542b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 584, y: 1289}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_119
+    originalName: 
+    pivot: {x: 0.4782609, y: -0.021276595}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 473
+      y: 1447
+      width: 46
+      height: 47
+    spriteID: 9d2f0137c89241b4b9393aa775d9345a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 473, y: 1447}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_120
+    originalName: 
+    pivot: {x: 0.44680846, y: -0.016393442}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 350
+      y: 961
+      width: 47
+      height: 61
+    spriteID: 4555eaf71adb8304d821d51fd2356800
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 350, y: 961}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_121
+    originalName: 
+    pivot: {x: 0.36538455, y: -0.01754386}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 350
+      y: 588
+      width: 52
+      height: 57
+    spriteID: 74033ee4f75f99f41b06817ee58b79a7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 350, y: 588}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_122
+    originalName: 
+    pivot: {x: 0.36538455, y: -0.018867925}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 350
+      y: 1663
+      width: 52
+      height: 53
+    spriteID: 20bc886516f36724eaef980184a1e839
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 350, y: 1663}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_123
+    originalName: 
+    pivot: {x: 0.36538455, y: -0.01923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 350
+      y: 1947
+      width: 52
+      height: 52
+    spriteID: 12c79284826a1be4aad3c54694661f5e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 350, y: 1947}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_124
+    originalName: 
+    pivot: {x: 0.42105266, y: -0.02}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 350
+      y: 1281
+      width: 57
+      height: 50
+    spriteID: 2164a9dcf12ff3343a4b5323bbeb0f87
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 350, y: 1281}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_125
+    originalName: 
+    pivot: {x: 0.44067803, y: -0.02}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 350
+      y: 776
+      width: 59
+      height: 50
+    spriteID: b9023fbd3003af848a9ff27e79e1f3c8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 350, y: 776}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_126
+    originalName: 
+    pivot: {x: 0.19999999, y: -0.018867925}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 350
+      y: 280
+      width: 115
+      height: 53
+    spriteID: e0ac3923ee3df8c479011795ddbee346
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 350, y: 280}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_127
+    originalName: 
+    pivot: {x: 0.17322837, y: -0.018867925}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 175
+      y: 221
+      width: 127
+      height: 53
+    spriteID: 06ec782726a76274fbfbc2d3a306a6a2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 175, y: 221}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_128
+    originalName: 
+    pivot: {x: 0.14788729, y: -0.018867925}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1477
+      width: 142
+      height: 53
+    spriteID: f5c583d924f932e4daac85651be9bcce
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1477}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_129
+    originalName: 
+    pivot: {x: 0.12101909, y: -0.018867925}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1294
+      width: 157
+      height: 53
+    spriteID: 757a47ffc055e4c4fa97b3b31ed2ed81
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1294}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_130
+    originalName: 
+    pivot: {x: 0.118749976, y: -0.02173913}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1660
+      width: 160
+      height: 46
+    spriteID: 19cbcf9e2703cc6418d09907e6bd6eac
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1660}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_131
+    originalName: 
+    pivot: {x: 0.117283925, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1891
+      width: 162
+      height: 44
+    spriteID: 51f10d5017b02d04bbde01dd8efc188e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1891}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_132
+    originalName: 
+    pivot: {x: 0.14371258, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 175
+      y: 81
+      width: 167
+      height: 44
+    spriteID: 56632f2a40eac5b4687c4f5fdd7ea1d8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 175, y: 81}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_133
+    originalName: 
+    pivot: {x: 0.15384617, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 350
+      y: 4
+      width: 169
+      height: 44
+    spriteID: 8eb8cde11e4b72c468e9f420d2fd01a8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 350, y: 4}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_134
+    originalName: 
+    pivot: {x: 0.52272725, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 584
+      y: 1341
+      width: 44
+      height: 44
+    spriteID: 1e013382ee554e44e8a745832adc469d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 584, y: 1341}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_135
+    originalName: 
+    pivot: {x: 0.4782609, y: -0.021276595}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 473
+      y: 1502
+      width: 46
+      height: 47
+    spriteID: 4d8dec86205795e4c9cf6c5df9fc7f10
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 473, y: 1502}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_136
+    originalName: 
+    pivot: {x: 0.44680846, y: -0.016393442}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 350
+      y: 1030
+      width: 47
+      height: 61
+    spriteID: 6f14f4f6451d90a46a1a910d5e8b4ffb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 350, y: 1030}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_137
+    originalName: 
+    pivot: {x: 0.36538455, y: -0.01754386}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 350
+      y: 653
+      width: 52
+      height: 57
+    spriteID: faa8aab9cca320d4cb756fd37c6b97ac
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 350, y: 653}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_138
+    originalName: 
+    pivot: {x: 0.36538455, y: -0.018867925}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 350
+      y: 1724
+      width: 52
+      height: 53
+    spriteID: fabe74169c64959469445063774ffd31
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 350, y: 1724}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_139
+    originalName: 
+    pivot: {x: 0.36538455, y: -0.01923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 527
+      y: 586
+      width: 52
+      height: 52
+    spriteID: 61ef51ed23e8e1a4e87df840497cd1fe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 527, y: 586}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_140
+    originalName: 
+    pivot: {x: 0.42105266, y: -0.02}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 350
+      y: 1339
+      width: 57
+      height: 50
+    spriteID: 561934927bf23a448b36f5f6ba155e93
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 350, y: 1339}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_141
+    originalName: 
+    pivot: {x: 0.44067803, y: -0.02}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 350
+      y: 834
+      width: 59
+      height: 50
+    spriteID: 89897d72e39010a4ca8dc56d6af6270d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 350, y: 834}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_142
+    originalName: 
+    pivot: {x: 0.17692307, y: -0.018867925}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1943
+      width: 130
+      height: 53
+    spriteID: e3a31f3ae97d3d340b49cf53431c653d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1943}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_143
+    originalName: 
+    pivot: {x: 0.15827338, y: -0.018867925}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1599
+      width: 139
+      height: 53
+    spriteID: 34d828c8ccd97594995f5fa0ce619a60
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1599}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_144
+    originalName: 
+    pivot: {x: 0.14788729, y: -0.018867925}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1538
+      width: 142
+      height: 53
+    spriteID: 48c506ac771e07145a4c2ed219ccf247
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1538}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_145
+    originalName: 
+    pivot: {x: 0.122580625, y: -0.018867925}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1355
+      width: 155
+      height: 53
+    spriteID: 5e20be699b525f84eb17132a1ebb27ea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1355}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_146
+    originalName: 
+    pivot: {x: 0.122580625, y: -0.01754386}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1229
+      width: 155
+      height: 57
+    spriteID: 8c67181313d71c54c8b22ca834198f42
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1229}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_147
+    originalName: 
+    pivot: {x: 0.11949683, y: -0.015873017}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1158
+      width: 159
+      height: 63
+    spriteID: 1115f1ad412741c4e8beca03ee078f40
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1158}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_148
+    originalName: 
+    pivot: {x: 0.14371258, y: -0.014492754}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 175
+      y: 4
+      width: 167
+      height: 69
+    spriteID: e518ae2346421db419e39a38f32095e6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 175, y: 4}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_149
+    originalName: 
+    pivot: {x: 0.17687078, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 350
+      y: 108
+      width: 147
+      height: 44
+    spriteID: 60d1198770334854db03bc8b3f7d15fc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 350, y: 108}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_150
+    originalName: 
+    pivot: {x: 0.5277777, y: -0.023255814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 592
+      y: 759
+      width: 36
+      height: 43
+    spriteID: 59ae876c1db1ffb49a6109c2ab4a6063
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 592, y: 759}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_151
+    originalName: 
+    pivot: {x: 0.66666675, y: -0.023255814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 680
+      y: 1651
+      width: 33
+      height: 43
+    spriteID: a6bbdd07885ae934db97ba58a85c5cda
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 680, y: 1651}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_152
+    originalName: 
+    pivot: {x: 0.58974355, y: -0.024390243}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 636
+      y: 1341
+      width: 39
+      height: 41
+    spriteID: 262115161f0961c47b20891420a55226
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 636, y: 1341}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_153
+    originalName: 
+    pivot: {x: 0.6600001, y: -0.025641026}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 175
+      y: 1200
+      width: 50
+      height: 39
+    spriteID: 102677ff1046950479c5f900d3439163
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 175, y: 1200}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_154
+    originalName: 
+    pivot: {x: 0.6511627, y: -0.01923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 585
+      y: 646
+      width: 43
+      height: 52
+    spriteID: 5ff930faf9bd31c42884fb57c84b2f11
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 585, y: 646}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_155
+    originalName: 
+    pivot: {x: 0.7499999, y: -0.01923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 587
+      y: 586
+      width: 40
+      height: 52
+    spriteID: c68d12b8458a2e6498960a36da1862e1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 587, y: 586}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_156
+    originalName: 
+    pivot: {x: 0.7499999, y: -0.01923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 425
+      y: 1985
+      width: 40
+      height: 52
+    spriteID: a1c24b7cad7a578419c4b963368cedac
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 425, y: 1985}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_157
+    originalName: 
+    pivot: {x: 0.61224484, y: -0.01369863}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 102
+      y: 1714
+      width: 49
+      height: 73
+    spriteID: be9433d117c7901418a3dedf91410de6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 102, y: 1714}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_158
+    originalName: 
+    pivot: {x: 0.46268663, y: -0.011363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 350
+      y: 341
+      width: 67
+      height: 88
+    spriteID: 825a923818e77d941ab0c57f8b893766
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 350, y: 341}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_159
+    originalName: 
+    pivot: {x: 0.469697, y: -0.00990099}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 175
+      y: 282
+      width: 66
+      height: 101
+    spriteID: 79e5919e20a04c249afc133d63af53cc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 175, y: 282}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_160
+    originalName: 
+    pivot: {x: 0.68750006, y: -0.023809524}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 593
+      y: 1093
+      width: 32
+      height: 42
+    spriteID: 98011beb81c87be4d99a6b75b7a4bba0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 593, y: 1093}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_161
+    originalName: 
+    pivot: {x: 0.5208333, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 527
+      y: 1981
+      width: 48
+      height: 44
+    spriteID: 03b9b7f985fbcad4f8fd013fd7fe586b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 527, y: 1981}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_162
+    originalName: 
+    pivot: {x: 0.5277777, y: -0.023255814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 636
+      y: 1651
+      width: 36
+      height: 43
+    spriteID: adf7c11ba39270d49bab2fcf68e6008b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 636, y: 1651}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_163
+    originalName: 
+    pivot: {x: 0.66666675, y: -0.023255814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 593
+      y: 707
+      width: 33
+      height: 43
+    spriteID: 3bda1cb7f7c1a9b4bb24b6d0a06c7b8b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 593, y: 707}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_164
+    originalName: 
+    pivot: {x: 0.58974355, y: -0.024390243}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 636
+      y: 1390
+      width: 39
+      height: 41
+    spriteID: cc3e7f1f2d35ea244ac704dc6ad80e20
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 636, y: 1390}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_165
+    originalName: 
+    pivot: {x: 0.6600001, y: -0.025641026}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 175
+      y: 1247
+      width: 50
+      height: 39
+    spriteID: a6379fe5657ea1747bdc3a3c805af892
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 175, y: 1247}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_166
+    originalName: 
+    pivot: {x: 0.6511627, y: -0.01923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 473
+      y: 1332
+      width: 43
+      height: 52
+    spriteID: 7e6c65b6b58342b4f9d836a74e97597e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 473, y: 1332}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_167
+    originalName: 
+    pivot: {x: 0.7499999, y: -0.01923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 583
+      y: 1653
+      width: 40
+      height: 52
+    spriteID: 9732a820151bbc7449cd195eb1f84be2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 583, y: 1653}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_168
+    originalName: 
+    pivot: {x: 0.7499999, y: -0.01923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 583
+      y: 1713
+      width: 40
+      height: 52
+    spriteID: eb2dfa2fbf82a2e45a142ea701f3c731
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 583, y: 1713}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_169
+    originalName: 
+    pivot: {x: 0.61224484, y: -0.01369863}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 100
+      y: 1802
+      width: 49
+      height: 73
+    spriteID: 04b79c30291f437459df1ace81936428
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 100, y: 1802}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_170
+    originalName: 
+    pivot: {x: 0.46268663, y: -0.011363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 350
+      y: 437
+      width: 67
+      height: 88
+    spriteID: 5780873f51d45cb4cbaaadc668062c48
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 350, y: 437}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_171
+    originalName: 
+    pivot: {x: 0.469697, y: -0.00990099}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 175
+      y: 391
+      width: 66
+      height: 101
+    spriteID: 305b4a84a7af15e438ba36bde13512bb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 175, y: 391}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_172
+    originalName: 
+    pivot: {x: 0.68750006, y: -0.023809524}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 681
+      y: 295
+      width: 32
+      height: 42
+    spriteID: ef1e910bae3224e40a1be95a252a2dfd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 681, y: 295}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_173
+    originalName: 
+    pivot: {x: 0.5208333, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 175
+      y: 500
+      width: 48
+      height: 44
+    spriteID: 75f88ec1a3fd1d849ac627cbb53b8012
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 175, y: 500}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_174
+    originalName: 
+    pivot: {x: 0.53061235, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 527
+      y: 1393
+      width: 49
+      height: 44
+    spriteID: d94327e402700bb47b791b1cf0aa7c43
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 527, y: 1393}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_175
+    originalName: 
+    pivot: {x: 0.5208333, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 175
+      y: 552
+      width: 48
+      height: 44
+    spriteID: 146a75f163be0954caabce2fd6a7d1b0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 175, y: 552}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_176
+    originalName: 
+    pivot: {x: 0.53061235, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 527
+      y: 1445
+      width: 49
+      height: 44
+    spriteID: 55dfdcdc5bfdeee4e829690c0f225d15
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 527, y: 1445}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_177
+    originalName: 
+    pivot: {x: 0.5208333, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 175
+      y: 604
+      width: 48
+      height: 44
+    spriteID: af9b2ed9a46e9d0448825e9ee0df9eb5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 175, y: 604}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_178
+    originalName: 
+    pivot: {x: 0.5208333, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 175
+      y: 656
+      width: 48
+      height: 44
+    spriteID: 139f120518f63ae489a8211e7b001404
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 175, y: 656}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_179
+    originalName: 
+    pivot: {x: 0.5111111, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 583
+      y: 1549
+      width: 45
+      height: 44
+    spriteID: 5f8c612cca204f54baa6b02b21342df1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 583, y: 1549}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_180
+    originalName: 
+    pivot: {x: 0.5111111, y: -0.023255814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 175
+      y: 1340
+      width: 45
+      height: 43
+    spriteID: 429ed568114f5e94abd7704593d0926c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 175, y: 1340}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_181
+    originalName: 
+    pivot: {x: 0.15172414, y: -0.008403362}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1031
+      width: 145
+      height: 119
+    spriteID: 27db3f17394f1ea4e9ab6c132e7f359a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1031}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_182
+    originalName: 
+    pivot: {x: 0.14864866, y: -0.008196721}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 520
+      width: 148
+      height: 122
+    spriteID: 5e99c0bde743b294ab104c0b58d1fe92
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 520}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_183
+    originalName: 
+    pivot: {x: 0.14864866, y: -0.008333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 776
+      width: 148
+      height: 120
+    spriteID: b1d1132f37a559f4e84163631683b1ca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 776}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_184
+    originalName: 
+    pivot: {x: 0.1543624, y: -0.008403362}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 904
+      width: 149
+      height: 119
+    spriteID: fc381798419468642bea97e4a7bdd855
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 904}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_185
+    originalName: 
+    pivot: {x: 0.1655629, y: -0.008474576}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 650
+      width: 151
+      height: 118
+    spriteID: 8ca451ddcb378c444bf6074ee6c85e57
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 650}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_186
+    originalName: 
+    pivot: {x: 0.16774195, y: -0.008196721}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 132
+      width: 155
+      height: 122
+    spriteID: 6d3c465842a5d0447b90291425b1dd82
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 132}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_187
+    originalName: 
+    pivot: {x: 0.16129032, y: -0.008196721}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 262
+      width: 155
+      height: 122
+    spriteID: e0f242e43f70f8a439ed9206e7597122
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 262}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_188
+    originalName: 
+    pivot: {x: 0.15950923, y: -0.008333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 163
+      height: 120
+    spriteID: 97e30a4d9d15f5c44808ca3496386a07
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_189
+    originalName: 
+    pivot: {x: 0.15923567, y: -0.008333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 392
+      width: 157
+      height: 120
+    spriteID: 59d2dd6e2de32a94d8a982e442c30915
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 392}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_190
+    originalName: 
+    pivot: {x: 0.16447368, y: -0.018867925}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1416
+      width: 152
+      height: 53
+    spriteID: 3074467caa140fa489425ca68974571e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1416}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_191
+    originalName: 
+    pivot: {x: 0.15231787, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 350
+      y: 56
+      width: 151
+      height: 44
+    spriteID: 07a58dfc345c2fc488714fd2fbad836d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 350, y: 56}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_192
+    originalName: 
+    pivot: {x: 0.15862067, y: -0.023255814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 350
+      y: 160
+      width: 145
+      height: 43
+    spriteID: b5fa4e74bdbe0e74f8096b9e361334f2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 350, y: 160}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_193
+    originalName: 
+    pivot: {x: 0.17741936, y: -0.023255814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 527
+      y: 90
+      width: 124
+      height: 43
+    spriteID: 502ba785150b599478512bf325ab6617
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 527, y: 90}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_194
+    originalName: 
+    pivot: {x: 0.20754719, y: -0.023255814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 527
+      y: 141
+      width: 106
+      height: 43
+    spriteID: 6ff3043ea1f21474aa957076374d9170
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 527, y: 141}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_195
+    originalName: 
+    pivot: {x: 0.2178218, y: -0.023255814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 527
+      y: 295
+      width: 101
+      height: 43
+    spriteID: aa23c6a22ea259f41b7109018e5c5bcc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 527, y: 295}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_196
+    originalName: 
+    pivot: {x: 0.22549018, y: -0.023255814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 527
+      y: 244
+      width: 102
+      height: 43
+    spriteID: 98a1b1fbce558b24eae52867b82a3265
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 527, y: 244}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_197
+    originalName: 
+    pivot: {x: 0.24509804, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 527
+      y: 192
+      width: 102
+      height: 44
+    spriteID: cd9e5bfafab15924f871a5cd14138f95
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 527, y: 192}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_198
+    originalName: 
+    pivot: {x: 0.4871794, y: -0.023809524}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 636
+      y: 970
+      width: 39
+      height: 42
+    spriteID: 3dfb618809ceb5b4f85433d73d4f0c7a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 636, y: 970}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_199
+    originalName: 
+    pivot: {x: 0.5675675, y: -0.025641026}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 591
+      y: 1190
+      width: 37
+      height: 39
+    spriteID: 757277c84c968a84681b5493758c1df3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 591, y: 1190}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_200
+    originalName: 
+    pivot: {x: 0.57446814, y: -0.027777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 636
+      y: 827
+      width: 47
+      height: 36
+    spriteID: 17570892750afe0448dc42e25a752cf3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 636, y: 827}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_201
+    originalName: 
+    pivot: {x: 0.72131157, y: -0.028571429}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 350
+      y: 2007
+      width: 61
+      height: 35
+    spriteID: 9a82293e3315a2a4382b2844bf0bcce1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 350, y: 2007}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_202
+    originalName: 
+    pivot: {x: 0.6779661, y: -0.025641026}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 527
+      y: 1143
+      width: 59
+      height: 39
+    spriteID: 7248cc80ec8ea1e44af0c4371aa2bb9f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 527, y: 1143}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_203
+    originalName: 
+    pivot: {x: 0.7090908, y: -0.028571429}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 175
+      y: 1541
+      width: 55
+      height: 35
+    spriteID: 33a43c9d0be16bc41844db6c815504b6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 175, y: 1541}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_204
+    originalName: 
+    pivot: {x: 0.58730155, y: -0.022222223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 350
+      y: 1397
+      width: 63
+      height: 45
+    spriteID: 41b0543593fe0fc468a2fd1b158f227d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 350, y: 1397}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_205
+    originalName: 
+    pivot: {x: 0.54687506, y: -0.021276595}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 350
+      y: 533
+      width: 64
+      height: 47
+    spriteID: edeb77996f087fd46af0f2261e63cf1d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 350, y: 533}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_206
+    originalName: 
+    pivot: {x: 0.48611116, y: -0.01724138}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 269
+      y: 133
+      width: 72
+      height: 58
+    spriteID: f1065838949b34e43b5bd3538606613e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 269, y: 133}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_207
+    originalName: 
+    pivot: {x: 0.2, y: -0.028571429}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 527
+      y: 47
+      width: 180
+      height: 35
+    spriteID: 306f5581c0f864048af27e0ae5789d04
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 527, y: 47}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_208
+    originalName: 
+    pivot: {x: 0.22580646, y: -0.028571429}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 527
+      y: 4
+      width: 186
+      height: 35
+    spriteID: 99251f502c9ca7b46a30f40d1aa270dd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 527, y: 4}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_209
+    originalName: 
+    pivot: {x: 0.25773194, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 721
+      y: 41
+      width: 194
+      height: 29
+    spriteID: e987cc51631a1b647ba1acbaade009d1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 721, y: 41}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_210
+    originalName: 
+    pivot: {x: 0.26153848, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 721
+      y: 4
+      width: 195
+      height: 29
+    spriteID: 1eecce6db219b2040a0dce83fcd155fe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 721, y: 4}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_211
+    originalName: 
+    pivot: {x: 1.2439026, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 924
+      y: 4
+      width: 41
+      height: 29
+    spriteID: 0dceb7f6efc566b46a9f6ca704c7e8c7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 924, y: 4}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_212
+    originalName: 
+    pivot: {x: 0.9148936, y: -0.02631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 175
+      y: 1947
+      width: 47
+      height: 38
+    spriteID: e64026f41d386244ca5e96924a4537a8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 175, y: 1947}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_213
+    originalName: 
+    pivot: {x: 0.5641026, y: -0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 636
+      y: 1480
+      width: 39
+      height: 40
+    spriteID: faba4964922e51b45800eb114fb3f4f3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 636, y: 1480}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_214
+    originalName: 
+    pivot: {x: 0.5208333, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 175
+      y: 708
+      width: 48
+      height: 44
+    spriteID: 65f913cbd181bbd40b9df3e688712749
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 175, y: 708}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_215
+    originalName: 
+    pivot: {x: 0.51428574, y: -0.021276595}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 636
+      y: 915
+      width: 35
+      height: 47
+    spriteID: e13004e5eea1e0b4989cf39ddd74ad07
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 636, y: 915}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_216
+    originalName: 
+    pivot: {x: 0.5757575, y: -0.021276595}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 679
+      y: 915
+      width: 33
+      height: 47
+    spriteID: e14e5c011bc8f604c88fc6e1d54e0068
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 679, y: 915}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_217
+    originalName: 
+    pivot: {x: 0.30769223, y: -0.023809524}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 636
+      y: 1020
+      width: 39
+      height: 42
+    spriteID: 12b30224faabaf94cbb6c9a74c4a2378
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 636, y: 1020}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_218
+    originalName: 
+    pivot: {x: 0.11111107, y: -0.01923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 473
+      y: 280
+      width: 45
+      height: 52
+    spriteID: 0783eb73ae185ad47904487275e5221f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 473, y: 280}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_219
+    originalName: 
+    pivot: {x: 0.09090913, y: -0.01923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 582
+      y: 866
+      width: 44
+      height: 52
+    spriteID: 1b43ffcc6b22cce41926aae60e2e6967
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 582, y: 866}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_220
+    originalName: 
+    pivot: {x: 0.085106425, y: -0.018867925}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 527
+      y: 866
+      width: 47
+      height: 53
+    spriteID: 226ed265696572f4594694d29379e4c4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 527, y: 866}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_221
+    originalName: 
+    pivot: {x: 0.07547174, y: -0.018518519}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 350
+      y: 1099
+      width: 53
+      height: 54
+    spriteID: aaff662baca533146a48d9a7a0fd3eb1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 350, y: 1099}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_222
+    originalName: 
+    pivot: {x: 0.09615381, y: -0.015384615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 425
+      y: 770
+      width: 52
+      height: 65
+    spriteID: 7fc1f119f759d164d8a06661e3744ac7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 425, y: 770}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_223
+    originalName: 
+    pivot: {x: 0.09615381, y: -0.015384615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 425
+      y: 843
+      width: 52
+      height: 65
+    spriteID: 07fb1eac7873a3d459561de56134eb35
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 425, y: 843}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_224
+    originalName: 
+    pivot: {x: 0.09615381, y: -0.015384615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 425
+      y: 916
+      width: 52
+      height: 65
+    spriteID: 3bc19c114677e3a47b899f4f70854f81
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 425, y: 916}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_225
+    originalName: 
+    pivot: {x: 0.09615381, y: -0.015384615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 425
+      y: 989
+      width: 52
+      height: 65
+    spriteID: a8186a554c2d6694aad8de4895aaa9a5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 425, y: 989}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_226
+    originalName: 
+    pivot: {x: 0.09615381, y: -0.015384615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 425
+      y: 1062
+      width: 52
+      height: 65
+    spriteID: 3c9c6146a0268e240b6323302cdfa5c4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 425, y: 1062}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_227
+    originalName: 
+    pivot: {x: 0.09615381, y: -0.015384615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 425
+      y: 1135
+      width: 52
+      height: 65
+    spriteID: 16a8b08dbde33774ab01165d16e89ee6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 425, y: 1135}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_228
+    originalName: 
+    pivot: {x: 0.07547174, y: -0.018518519}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 350
+      y: 1161
+      width: 53
+      height: 54
+    spriteID: 17416739fed35e24d9cccc766f5f8e7f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 350, y: 1161}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_229
+    originalName: 
+    pivot: {x: 0.085106425, y: -0.018867925}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 527
+      y: 927
+      width: 47
+      height: 53
+    spriteID: edf9fe7cf1403894287c467501678cae
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 527, y: 927}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_230
+    originalName: 
+    pivot: {x: 0.09090913, y: -0.01923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 582
+      y: 927
+      width: 44
+      height: 52
+    spriteID: 2d56f07525dd0104780a873f2e236137
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 582, y: 927}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_231
+    originalName: 
+    pivot: {x: 0.09090913, y: -0.01923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 473
+      y: 1272
+      width: 44
+      height: 52
+    spriteID: 723bbbc3aae787d47926f211441d1271
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 473, y: 1272}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_232
+    originalName: 
+    pivot: {x: 0.27027017, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 591
+      y: 1041
+      width: 37
+      height: 44
+    spriteID: a6f1e597dead3064abd98d81163afcc3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 591, y: 1041}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_233
+    originalName: 
+    pivot: {x: 0.48888895, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 583
+      y: 1601
+      width: 45
+      height: 44
+    spriteID: ec6fe491c4ace3d41ac088e9b2d51b77
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 583, y: 1601}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_234
+    originalName: 
+    pivot: {x: 0.58974355, y: -0.023809524}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 636
+      y: 1070
+      width: 39
+      height: 42
+    spriteID: f85f785a05eb75840acb647ab521308e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 636, y: 1070}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_235
+    originalName: 
+    pivot: {x: 0.58974355, y: -0.023809524}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 636
+      y: 1120
+      width: 39
+      height: 42
+    spriteID: b5ccf89e5a78b11459bbb73f6092288a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 636, y: 1120}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_236
+    originalName: 
+    pivot: {x: 0.79487187, y: -0.02}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 473
+      y: 1764
+      width: 39
+      height: 50
+    spriteID: 9515591ad6d1ac747a3f63e29bd491c2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 473, y: 1764}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_237
+    originalName: 
+    pivot: {x: 0.88888884, y: -0.02}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 175
+      y: 1785
+      width: 36
+      height: 50
+    spriteID: d479316e7c54d154ab47e935e0c56762
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 175, y: 1785}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_238
+    originalName: 
+    pivot: {x: 0.86111116, y: -0.02}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 175
+      y: 1843
+      width: 36
+      height: 50
+    spriteID: d1e8a3835f895ca40994dc3b5eea56fe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 175, y: 1843}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_239
+    originalName: 
+    pivot: {x: 0.5208333, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 175
+      y: 760
+      width: 48
+      height: 44
+    spriteID: 38d5c00809395354f9c0d3fe42032107
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 175, y: 760}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_240
+    originalName: 
+    pivot: {x: 0.5208333, y: -0.022727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 175
+      y: 812
+      width: 48
+      height: 44
+    spriteID: 314f99675d907464cba62de7b0170591
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 175, y: 812}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_241
+    originalName: 
+    pivot: {x: 0.37931037, y: -0.023809524}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 527
+      y: 1093
+      width: 58
+      height: 42
+    spriteID: e57741197e09ea0479423f76aec45412
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 527, y: 1093}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_242
+    originalName: 
+    pivot: {x: 0.33928564, y: -0.025641026}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 527
+      y: 1190
+      width: 56
+      height: 39
+    spriteID: 4c3499b439057534ea02245b0a7751de
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 527, y: 1190}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_243
+    originalName: 
+    pivot: {x: 0.29166663, y: -0.029411765}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 636
+      y: 1170
+      width: 48
+      height: 34
+    spriteID: b8511e4033f95de4ebb2dd9cff480873
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 636, y: 1170}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_244
+    originalName: 
+    pivot: {x: 0.30434778, y: -0.030303031}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 636
+      y: 1702
+      width: 46
+      height: 33
+    spriteID: c7e1a358907a199439be8fe3d05ec640
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 636, y: 1702}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_245
+    originalName: 
+    pivot: {x: 0.31914902, y: -0.030303031}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 636
+      y: 1528
+      width: 47
+      height: 33
+    spriteID: 546846d4c26b5a044814b7324d903378
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 636, y: 1528}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_246
+    originalName: 
+    pivot: {x: 0.3265306, y: -0.030303031}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 636
+      y: 1300
+      width: 49
+      height: 33
+    spriteID: 9f43854994242274c9e0b17eee9280b3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 636, y: 1300}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_247
+    originalName: 
+    pivot: {x: 0.3333333, y: -0.030303031}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 636
+      y: 1439
+      width: 48
+      height: 33
+    spriteID: b5ce7a28ba2110744a8d13d42f7ef53a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 636, y: 1439}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_248
+    originalName: 
+    pivot: {x: 0.34042552, y: -0.030303031}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 636
+      y: 1569
+      width: 47
+      height: 33
+    spriteID: 8e79fcfb227757342b996a79cbb9379f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 636, y: 1569}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_249
+    originalName: 
+    pivot: {x: 0.34042552, y: -0.030303031}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 636
+      y: 1610
+      width: 47
+      height: 33
+    spriteID: d673338b6d5b2c3408d70407d71ba262
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 636, y: 1610}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_250
+    originalName: 
+    pivot: {x: 0.31111106, y: -0.030303031}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 636
+      y: 1829
+      width: 45
+      height: 33
+    spriteID: ed1fbc444079b5549a9ef4a3fe0146fd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 636, y: 1829}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_251
+    originalName: 
+    pivot: {x: 0.2790697, y: -0.037037037}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 973
+      y: 4
+      width: 43
+      height: 27
+    spriteID: 59582f3e7cc939a4db96fbac8988ce59
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 973, y: 4}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_252
+    originalName: 
+    pivot: {x: 0.23529407, y: -0.09090909}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 269
+      y: 199
+      width: 51
+      height: 11
+    spriteID: 76d318ceb9230724e9112cbcf8f53eb6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 269, y: 199}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_253
+    originalName: 
+    pivot: {x: 0.21428566, y: -0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 636
+      y: 2022
+      width: 56
+      height: 7
+    spriteID: 30e6e7e00cb8fe047a3b8c2951e6e228
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 636, y: 2022}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_254
+    originalName: 
+    pivot: {x: 0.21052626, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 249
+      y: 358
+      width: 57
+      height: 6
+    spriteID: e57914dbe06e613409e633351119f2f0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 249, y: 358}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_255
+    originalName: 
+    pivot: {x: 0.2068965, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 636
+      y: 2037
+      width: 58
+      height: 6
+    spriteID: c8d6aab1190fb5545ad9d7aefb407a5a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 636, y: 2037}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_256
+    originalName: 
+    pivot: {x: 0.2068965, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 249
+      y: 316
+      width: 58
+      height: 6
+    spriteID: f33fd187a8be0a343b12270fb32a463b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 249, y: 316}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_257
+    originalName: 
+    pivot: {x: 0.2068965, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 249
+      y: 330
+      width: 58
+      height: 6
+    spriteID: 7332ecf0c47d35147b358059f307ad3d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 249, y: 330}
+  - name: Elementals_leaf_ranger_free_v1.0_Frame_258
+    originalName: 
+    pivot: {x: 0.2068965, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 249
+      y: 344
+      width: 58
+      height: 6
+    spriteID: e2f4bdb87f5af6541a86897a036c623e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 249, y: 344}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1421543156
+    name: Elementals_leaf_ranger_free_v1.0
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_0
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 118
+        y: 1
+        width: 49
+        height: 44
+      spriteId: bc151b007a84a0b4a942dcf938ecc46b
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 119
+        y: 1
+        width: 48
+        height: 44
+      spriteId: cc9e6490fd28d064599d799266e954ec
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 118
+        y: 1
+        width: 49
+        height: 44
+      spriteId: 0e6bb61503996654e8ad48b7ce5efce5
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 119
+        y: 1
+        width: 48
+        height: 44
+      spriteId: 7a1d58ea34f69a54fa84e39635be8260
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_4
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 119
+        y: 1
+        width: 48
+        height: 44
+      spriteId: 975aacab0ceaafa499d480dfb32d1a16
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_5
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 121
+        y: 1
+        width: 45
+        height: 44
+      spriteId: 847f8f584d0729047a9e2624de942100
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_6
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 121
+        y: 1
+        width: 45
+        height: 43
+      spriteId: 7e80a1604234d0d429337558a6a471fa
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_7
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 122
+        y: 1
+        width: 45
+        height: 43
+      spriteId: bc002e340939fc2448353b70e4d05de8
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_8
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 122
+        y: 1
+        width: 45
+        height: 43
+      spriteId: b06f7befc84ed37459ffe2704ceb2752
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_9
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 122
+        y: 1
+        width: 45
+        height: 43
+      spriteId: 16d8539671e78184b82e88b1e2beb97d
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_10
+      frameIndex: 10
+      additiveSortOrder: 0
+      cellRect:
+        x: 121
+        y: 1
+        width: 46
+        height: 43
+      spriteId: 3bf5872f9ceac324895ebed971aaea84
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_11
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 119
+        y: 1
+        width: 48
+        height: 44
+      spriteId: 07eb3d677c012044bb615e23aed6c057
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_12
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 120
+        y: 1
+        width: 48
+        height: 43
+      spriteId: 78231318da95fa042ac016a81318268d
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_13
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 118
+        y: 7
+        width: 51
+        height: 38
+      spriteId: bf5c29f732e4a7d4ab414642b0bf4321
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_14
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
+        x: 120
+        y: 9
+        width: 46
+        height: 36
+      spriteId: 5f453784cb889374ca444041b28ba041
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_15
+      frameIndex: 15
+      additiveSortOrder: 0
+      cellRect:
+        x: 122
+        y: 1
+        width: 47
+        height: 43
+      spriteId: a8672d37e02a69f4f99dc8404982a711
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_16
+      frameIndex: 16
+      additiveSortOrder: 0
+      cellRect:
+        x: 125
+        y: 1
+        width: 43
+        height: 42
+      spriteId: 26ed6fdb8d562d1438928507f270e6c8
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_17
+      frameIndex: 17
+      additiveSortOrder: 0
+      cellRect:
+        x: 125
+        y: 1
+        width: 44
+        height: 43
+      spriteId: b4d3511d25924e848895f1c1825be83c
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_18
+      frameIndex: 18
+      additiveSortOrder: 0
+      cellRect:
+        x: 122
+        y: 7
+        width: 47
+        height: 38
+      spriteId: 3b25c18e798c83d4d9bbbd20303aec98
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_19
+      frameIndex: 19
+      additiveSortOrder: 0
+      cellRect:
+        x: 122
+        y: 5
+        width: 45
+        height: 40
+      spriteId: 85aa81bdf29a8dc429662c5f4a1fc48a
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_20
+      frameIndex: 20
+      additiveSortOrder: 0
+      cellRect:
+        x: 123
+        y: 1
+        width: 46
+        height: 43
+      spriteId: 452ea8865507b9043b27a86c1557fa5e
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_21
+      frameIndex: 21
+      additiveSortOrder: 0
+      cellRect:
+        x: 123
+        y: 1
+        width: 46
+        height: 42
+      spriteId: 77af3bc664409e34e9324a9d65d181a0
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_22
+      frameIndex: 22
+      additiveSortOrder: 0
+      cellRect:
+        x: 119
+        y: 1
+        width: 45
+        height: 36
+      spriteId: 06542c03c32003e41b0629c428ccbfa9
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_23
+      frameIndex: 23
+      additiveSortOrder: 0
+      cellRect:
+        x: 115
+        y: 1
+        width: 49
+        height: 35
+      spriteId: 8d09ee9a50a1efd428a7f18af467a46a
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_24
+      frameIndex: 24
+      additiveSortOrder: 0
+      cellRect:
+        x: 124
+        y: 4
+        width: 43
+        height: 48
+      spriteId: a878c64a29eda494fb6da894cc819ad6
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_25
+      frameIndex: 25
+      additiveSortOrder: 0
+      cellRect:
+        x: 130
+        y: 4
+        width: 37
+        height: 48
+      spriteId: b0660a12a0fcc8c48a22bfb7292aac1c
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_26
+      frameIndex: 26
+      additiveSortOrder: 0
+      cellRect:
+        x: 123
+        y: 4
+        width: 44
+        height: 48
+      spriteId: 5a9ee21db3692a54e9b733d6af514f3e
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_27
+      frameIndex: 27
+      additiveSortOrder: 0
+      cellRect:
+        x: 124
+        y: 4
+        width: 43
+        height: 48
+      spriteId: 0a00e1c19964988459d854b3580e4c8e
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_28
+      frameIndex: 28
+      additiveSortOrder: 0
+      cellRect:
+        x: 130
+        y: 4
+        width: 37
+        height: 48
+      spriteId: 5c1afdd3385176e4a9525adb6a4559ff
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_29
+      frameIndex: 29
+      additiveSortOrder: 0
+      cellRect:
+        x: 123
+        y: 4
+        width: 44
+        height: 48
+      spriteId: 432b9bb7f1ec43646a1a60fda3ebc0db
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_30
+      frameIndex: 30
+      additiveSortOrder: 0
+      cellRect:
+        x: 124
+        y: 7
+        width: 44
+        height: 45
+      spriteId: 200c4575f5a9b704f8ab35af1f05d201
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_31
+      frameIndex: 31
+      additiveSortOrder: 0
+      cellRect:
+        x: 121
+        y: 10
+        width: 47
+        height: 42
+      spriteId: 836189c5928b76b4998ee02c4ad2f2f5
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_32
+      frameIndex: 32
+      additiveSortOrder: 0
+      cellRect:
+        x: 119
+        y: 8
+        width: 53
+        height: 47
+      spriteId: 5e09773c8e249eb4da7c7eab6c90da88
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_33
+      frameIndex: 33
+      additiveSortOrder: 0
+      cellRect:
+        x: 119
+        y: 6
+        width: 46
+        height: 56
+      spriteId: 412bf59f3618e9d43834a26d39431f62
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_34
+      frameIndex: 34
+      additiveSortOrder: 0
+      cellRect:
+        x: 129
+        y: 3
+        width: 40
+        height: 78
+      spriteId: c19ebc45e4c39f244823e04fe72ce4af
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_35
+      frameIndex: 35
+      additiveSortOrder: 0
+      cellRect:
+        x: 133
+        y: 3
+        width: 36
+        height: 78
+      spriteId: 332658d467a52274d8a01f52db4a9f23
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_36
+      frameIndex: 36
+      additiveSortOrder: 0
+      cellRect:
+        x: 131
+        y: 3
+        width: 38
+        height: 79
+      spriteId: a70e3660f9b156a4a978f447b4aa1ca2
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_37
+      frameIndex: 37
+      additiveSortOrder: 0
+      cellRect:
+        x: 129
+        y: 3
+        width: 40
+        height: 78
+      spriteId: 818dd943ad6397949bdb244ca84b874d
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_38
+      frameIndex: 38
+      additiveSortOrder: 0
+      cellRect:
+        x: 133
+        y: 3
+        width: 36
+        height: 78
+      spriteId: ccd4793cb9286424797e1cf782eac4ea
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_39
+      frameIndex: 39
+      additiveSortOrder: 0
+      cellRect:
+        x: 131
+        y: 3
+        width: 38
+        height: 79
+      spriteId: c4f792e2284cc694583726d005923ba0
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_40
+      frameIndex: 40
+      additiveSortOrder: 0
+      cellRect:
+        x: 130
+        y: 1
+        width: 41
+        height: 68
+      spriteId: be25be2ca8d650446ad4b860b29cb162
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_41
+      frameIndex: 41
+      additiveSortOrder: 0
+      cellRect:
+        x: 118
+        y: 1
+        width: 57
+        height: 36
+      spriteId: 0bf58d7f5dcdcc142990dfd6a7d66fef
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_42
+      frameIndex: 42
+      additiveSortOrder: 0
+      cellRect:
+        x: 120
+        y: 1
+        width: 49
+        height: 35
+      spriteId: bca5a549f9d3aa74aa416a4eae8c8988
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_43
+      frameIndex: 43
+      additiveSortOrder: 0
+      cellRect:
+        x: 124
+        y: 1
+        width: 44
+        height: 40
+      spriteId: f4bc17e110282524f8c664b4a6960a71
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_44
+      frameIndex: 44
+      additiveSortOrder: 0
+      cellRect:
+        x: 119
+        y: 1
+        width: 45
+        height: 36
+      spriteId: 96df1fa0bc265c748b89f217c82f2643
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_45
+      frameIndex: 45
+      additiveSortOrder: 0
+      cellRect:
+        x: 115
+        y: 1
+        width: 49
+        height: 35
+      spriteId: b23afe5a1da516244b40beb2027bd792
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_46
+      frameIndex: 46
+      additiveSortOrder: 0
+      cellRect:
+        x: 124
+        y: 4
+        width: 43
+        height: 48
+      spriteId: 264bcc6538b47114c882903e9f08fd27
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_47
+      frameIndex: 47
+      additiveSortOrder: 0
+      cellRect:
+        x: 130
+        y: 4
+        width: 37
+        height: 48
+      spriteId: f580d3df70c2ab7449b81dd453a77457
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_48
+      frameIndex: 48
+      additiveSortOrder: 0
+      cellRect:
+        x: 123
+        y: 4
+        width: 44
+        height: 48
+      spriteId: a2b014516412b7a4cb7498f73d2d9e74
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_49
+      frameIndex: 49
+      additiveSortOrder: 0
+      cellRect:
+        x: 124
+        y: 4
+        width: 43
+        height: 48
+      spriteId: 58fb9ee1d319b204bbc937a758969001
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_50
+      frameIndex: 50
+      additiveSortOrder: 0
+      cellRect:
+        x: 130
+        y: 4
+        width: 37
+        height: 48
+      spriteId: 97083c1c27565684bbaf830b57c16ecc
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_51
+      frameIndex: 51
+      additiveSortOrder: 0
+      cellRect:
+        x: 123
+        y: 4
+        width: 44
+        height: 48
+      spriteId: 06152075b43bbba4abbac3fc7c6acd30
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_52
+      frameIndex: 52
+      additiveSortOrder: 0
+      cellRect:
+        x: 124
+        y: 7
+        width: 44
+        height: 45
+      spriteId: 24b22af221676e04098fb85db02db423
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_53
+      frameIndex: 53
+      additiveSortOrder: 0
+      cellRect:
+        x: 121
+        y: 10
+        width: 48
+        height: 42
+      spriteId: 08585a7a811057c4595342d716440ccb
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_54
+      frameIndex: 54
+      additiveSortOrder: 0
+      cellRect:
+        x: 116
+        y: 8
+        width: 57
+        height: 44
+      spriteId: 1a0cc241c1b2dc54fae7c5f769fddb9f
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_55
+      frameIndex: 55
+      additiveSortOrder: 0
+      cellRect:
+        x: 117
+        y: 8
+        width: 56
+        height: 44
+      spriteId: 94c4bd4e7d12bde479443ab6b205aabe
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_56
+      frameIndex: 56
+      additiveSortOrder: 0
+      cellRect:
+        x: 115
+        y: 8
+        width: 58
+        height: 44
+      spriteId: 0b24827734a20244fb46876afcadecbe
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_57
+      frameIndex: 57
+      additiveSortOrder: 0
+      cellRect:
+        x: 115
+        y: 1
+        width: 81
+        height: 51
+      spriteId: d342a1e6f01ef4a47b1bb0f566ed705b
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_58
+      frameIndex: 58
+      additiveSortOrder: 0
+      cellRect:
+        x: 114
+        y: 1
+        width: 84
+        height: 52
+      spriteId: 86772e06842828a4e8f40c751eecd4b5
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_59
+      frameIndex: 59
+      additiveSortOrder: 0
+      cellRect:
+        x: 120
+        y: 1
+        width: 80
+        height: 52
+      spriteId: bd23823259e8b4342ac7d1a46289b763
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_60
+      frameIndex: 60
+      additiveSortOrder: 0
+      cellRect:
+        x: 119
+        y: 1
+        width: 85
+        height: 59
+      spriteId: 7734962010f5f99498c45482c9c299a8
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_61
+      frameIndex: 61
+      additiveSortOrder: 0
+      cellRect:
+        x: 119
+        y: 1
+        width: 100
+        height: 61
+      spriteId: 8cc705bb80d26ec49815a46e5044bec5
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_62
+      frameIndex: 62
+      additiveSortOrder: 0
+      cellRect:
+        x: 129
+        y: 1
+        width: 90
+        height: 80
+      spriteId: 5ecfb2152b2c14145aa8fdf0c83b075b
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_63
+      frameIndex: 63
+      additiveSortOrder: 0
+      cellRect:
+        x: 133
+        y: 1
+        width: 86
+        height: 80
+      spriteId: 6c917e1c10dc5004d9e048c65be84afb
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_64
+      frameIndex: 64
+      additiveSortOrder: 0
+      cellRect:
+        x: 131
+        y: 1
+        width: 88
+        height: 81
+      spriteId: 7e1345106a853c94f81f4c117939346b
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_65
+      frameIndex: 65
+      additiveSortOrder: 0
+      cellRect:
+        x: 129
+        y: 3
+        width: 40
+        height: 78
+      spriteId: a857b0f846dfc2e408d7b9061c35f35c
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_66
+      frameIndex: 66
+      additiveSortOrder: 0
+      cellRect:
+        x: 133
+        y: 3
+        width: 36
+        height: 78
+      spriteId: 757eef0bd6f294b4a81610c652caaac9
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_67
+      frameIndex: 67
+      additiveSortOrder: 0
+      cellRect:
+        x: 131
+        y: 3
+        width: 38
+        height: 79
+      spriteId: 3a2502e948834cb44b0d2ee6ea6ccd1b
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_68
+      frameIndex: 68
+      additiveSortOrder: 0
+      cellRect:
+        x: 130
+        y: 1
+        width: 41
+        height: 68
+      spriteId: 10d30df8b5f13fd4c9bf7a4204efb1e5
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_69
+      frameIndex: 69
+      additiveSortOrder: 0
+      cellRect:
+        x: 118
+        y: 1
+        width: 57
+        height: 36
+      spriteId: 071eed5fe1440c646a07ddefa41d845a
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_70
+      frameIndex: 70
+      additiveSortOrder: 0
+      cellRect:
+        x: 120
+        y: 1
+        width: 49
+        height: 35
+      spriteId: 04e13912b366ada49bf564884f96594e
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_71
+      frameIndex: 71
+      additiveSortOrder: 0
+      cellRect:
+        x: 124
+        y: 1
+        width: 44
+        height: 40
+      spriteId: 4232aee340d0171408be217c89d8dd74
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_72
+      frameIndex: 72
+      additiveSortOrder: 0
+      cellRect:
+        x: 122
+        y: 1
+        width: 54
+        height: 38
+      spriteId: 08406f7259f4f3042a20f71fe4c46aeb
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_73
+      frameIndex: 73
+      additiveSortOrder: 0
+      cellRect:
+        x: 125
+        y: 1
+        width: 39
+        height: 30
+      spriteId: 43c9cb46f2e1aa8449a05d0214e4cca2
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_74
+      frameIndex: 74
+      additiveSortOrder: 0
+      cellRect:
+        x: 123
+        y: 2
+        width: 38
+        height: 28
+      spriteId: be2202f96bab0ff48ba0de4d8101949d
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_75
+      frameIndex: 75
+      additiveSortOrder: 0
+      cellRect:
+        x: 112
+        y: 1
+        width: 42
+        height: 32
+      spriteId: 25fb242033e9a9448a78f7ef9373e4ba
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_76
+      frameIndex: 76
+      additiveSortOrder: 0
+      cellRect:
+        x: 114
+        y: 1
+        width: 40
+        height: 26
+      spriteId: 6454003757e41084387b20437e088bf1
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_77
+      frameIndex: 77
+      additiveSortOrder: 0
+      cellRect:
+        x: 113
+        y: 1
+        width: 42
+        height: 30
+      spriteId: d34c20f4cc7890d4196e9975110a8eb1
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_78
+      frameIndex: 78
+      additiveSortOrder: 0
+      cellRect:
+        x: 119
+        y: 1
+        width: 43
+        height: 35
+      spriteId: 77367aeee2cd48c40b54da7e6e46691d
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_79
+      frameIndex: 79
+      additiveSortOrder: 0
+      cellRect:
+        x: 124
+        y: 1
+        width: 44
+        height: 40
+      spriteId: 410d272ff796b7940bbdba752e8122ba
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_80
+      frameIndex: 80
+      additiveSortOrder: 0
+      cellRect:
+        x: 118
+        y: 1
+        width: 55
+        height: 45
+      spriteId: 90c4970c438d1bd4b86623b9e07fa512
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_81
+      frameIndex: 81
+      additiveSortOrder: 0
+      cellRect:
+        x: 106
+        y: 1
+        width: 71
+        height: 40
+      spriteId: d11f70cff2307c3459d09b3e411a9566
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_82
+      frameIndex: 82
+      additiveSortOrder: 0
+      cellRect:
+        x: 107
+        y: 1
+        width: 70
+        height: 40
+      spriteId: dd2b29adf294ad64fabddebaf817d810
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_83
+      frameIndex: 83
+      additiveSortOrder: 0
+      cellRect:
+        x: 109
+        y: 1
+        width: 68
+        height: 40
+      spriteId: 72e90f1aef50d944d8c25c3a45cb60d3
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_84
+      frameIndex: 84
+      additiveSortOrder: 0
+      cellRect:
+        x: 107
+        y: 1
+        width: 70
+        height: 40
+      spriteId: d0726278d6217f0429ffe771c03e7316
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_85
+      frameIndex: 85
+      additiveSortOrder: 0
+      cellRect:
+        x: 106
+        y: 1
+        width: 71
+        height: 40
+      spriteId: 6849b822279c50f43b1833797cfa04b2
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_86
+      frameIndex: 86
+      additiveSortOrder: 0
+      cellRect:
+        x: 107
+        y: 1
+        width: 70
+        height: 40
+      spriteId: e6213c57fe7c7f64fbf4fc35909c082b
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_87
+      frameIndex: 87
+      additiveSortOrder: 0
+      cellRect:
+        x: 109
+        y: 1
+        width: 68
+        height: 40
+      spriteId: b965a02c4b1472944aa99c99ea2ebf6a
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_88
+      frameIndex: 88
+      additiveSortOrder: 0
+      cellRect:
+        x: 107
+        y: 1
+        width: 70
+        height: 40
+      spriteId: 6672aef2f0fa31f45a052be0a8cad2f5
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_89
+      frameIndex: 89
+      additiveSortOrder: 0
+      cellRect:
+        x: 119
+        y: 1
+        width: 52
+        height: 41
+      spriteId: b5491c4099d8e6842b80e639857c43f9
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_90
+      frameIndex: 90
+      additiveSortOrder: 0
+      cellRect:
+        x: 119
+        y: 1
+        width: 43
+        height: 35
+      spriteId: 980416c4626aa8440986cb048c2630bc
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_91
+      frameIndex: 91
+      additiveSortOrder: 0
+      cellRect:
+        x: 124
+        y: 1
+        width: 44
+        height: 40
+      spriteId: 1d594f7564109ce42859f1c93481b5d8
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_92
+      frameIndex: 92
+      additiveSortOrder: 0
+      cellRect:
+        x: 118
+        y: 1
+        width: 49
+        height: 44
+      spriteId: 30ceec162074b5d49b92788bb3c3b31c
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_93
+      frameIndex: 93
+      additiveSortOrder: 0
+      cellRect:
+        x: 123
+        y: 1
+        width: 42
+        height: 43
+      spriteId: 0be0c9675a09a6243afdfe68ea9a9d2f
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_94
+      frameIndex: 94
+      additiveSortOrder: 0
+      cellRect:
+        x: 119
+        y: 1
+        width: 46
+        height: 42
+      spriteId: 20a8abda9b7a05640b49b69da1c5e1fa
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_95
+      frameIndex: 95
+      additiveSortOrder: 0
+      cellRect:
+        x: 119
+        y: 1
+        width: 46
+        height: 42
+      spriteId: 7ad08ba38b75b9c4783628953887bda6
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_96
+      frameIndex: 96
+      additiveSortOrder: 0
+      cellRect:
+        x: 126
+        y: 1
+        width: 43
+        height: 42
+      spriteId: 74d4075bbc58dfe488202991d6478938
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_97
+      frameIndex: 97
+      additiveSortOrder: 0
+      cellRect:
+        x: 128
+        y: 1
+        width: 71
+        height: 42
+      spriteId: cac2b5ea359878e41922780d18da0ee1
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_98
+      frameIndex: 98
+      additiveSortOrder: 0
+      cellRect:
+        x: 150
+        y: 1
+        width: 75
+        height: 42
+      spriteId: 41705038570322848a1d045b8ddec80e
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_99
+      frameIndex: 99
+      additiveSortOrder: 0
+      cellRect:
+        x: 161
+        y: 1
+        width: 63
+        height: 43
+      spriteId: 7f418703643982f46824c8d667216c11
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_100
+      frameIndex: 100
+      additiveSortOrder: 0
+      cellRect:
+        x: 161
+        y: 1
+        width: 63
+        height: 43
+      spriteId: 3b828c1b670014446a18c4ff5822ca78
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_101
+      frameIndex: 101
+      additiveSortOrder: 0
+      cellRect:
+        x: 135
+        y: 1
+        width: 38
+        height: 42
+      spriteId: ceef7f2c1e3bb7641aa246045ff58ecd
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_102
+      frameIndex: 102
+      additiveSortOrder: 0
+      cellRect:
+        x: 119
+        y: 1
+        width: 48
+        height: 44
+      spriteId: 275392e87313eff46ae5b7cbec0caa48
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_103
+      frameIndex: 103
+      additiveSortOrder: 0
+      cellRect:
+        x: 121
+        y: 1
+        width: 44
+        height: 44
+      spriteId: 437d0e590132baf45b23a150cc848ba5
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_104
+      frameIndex: 104
+      additiveSortOrder: 0
+      cellRect:
+        x: 122
+        y: 1
+        width: 46
+        height: 47
+      spriteId: 22dca95b966b7cb439db95c6464fa709
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_105
+      frameIndex: 105
+      additiveSortOrder: 0
+      cellRect:
+        x: 123
+        y: 1
+        width: 47
+        height: 61
+      spriteId: 591576ca62d906c48abd979881a537d0
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_106
+      frameIndex: 106
+      additiveSortOrder: 0
+      cellRect:
+        x: 125
+        y: 1
+        width: 52
+        height: 57
+      spriteId: f12e394928cf0394383f9c221b4c134f
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_107
+      frameIndex: 107
+      additiveSortOrder: 0
+      cellRect:
+        x: 125
+        y: 1
+        width: 52
+        height: 53
+      spriteId: 0d9934dac033fa445b0af1225cabad2a
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_108
+      frameIndex: 108
+      additiveSortOrder: 0
+      cellRect:
+        x: 125
+        y: 1
+        width: 52
+        height: 52
+      spriteId: e5c5384a248efac4387e78c68b497e5d
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_109
+      frameIndex: 109
+      additiveSortOrder: 0
+      cellRect:
+        x: 120
+        y: 1
+        width: 57
+        height: 50
+      spriteId: f7e009fd13b4f414b970d09abe710546
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_110
+      frameIndex: 110
+      additiveSortOrder: 0
+      cellRect:
+        x: 118
+        y: 1
+        width: 59
+        height: 50
+      spriteId: ada8ebdac1943384fa9529bef9438b44
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_111
+      frameIndex: 111
+      additiveSortOrder: 0
+      cellRect:
+        x: 121
+        y: 1
+        width: 71
+        height: 53
+      spriteId: 67dd7085ed0c8c2419e0fb43ac789451
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_112
+      frameIndex: 112
+      additiveSortOrder: 0
+      cellRect:
+        x: 122
+        y: 1
+        width: 70
+        height: 53
+      spriteId: 842ad3c5e3870344abbf76f30506ca04
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_113
+      frameIndex: 113
+      additiveSortOrder: 0
+      cellRect:
+        x: 123
+        y: 1
+        width: 71
+        height: 53
+      spriteId: 62044b26c2b29c24087a1633bb6d186f
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_114
+      frameIndex: 114
+      additiveSortOrder: 0
+      cellRect:
+        x: 125
+        y: 1
+        width: 50
+        height: 53
+      spriteId: 993437aa7a96ada47b7f8435a7ed6548
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_115
+      frameIndex: 115
+      additiveSortOrder: 0
+      cellRect:
+        x: 125
+        y: 1
+        width: 40
+        height: 46
+      spriteId: 6962958fbf39a534aa83d52b8a07b75a
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_116
+      frameIndex: 116
+      additiveSortOrder: 0
+      cellRect:
+        x: 125
+        y: 1
+        width: 41
+        height: 44
+      spriteId: 6ae29ee3a4a89bb4ea79a7a752466e35
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_117
+      frameIndex: 117
+      additiveSortOrder: 0
+      cellRect:
+        x: 120
+        y: 1
+        width: 46
+        height: 44
+      spriteId: 024c420c71df30347b91e266489a164b
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_118
+      frameIndex: 118
+      additiveSortOrder: 0
+      cellRect:
+        x: 121
+        y: 1
+        width: 44
+        height: 44
+      spriteId: 7ab73887ceeb727428d2e378165e542b
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_119
+      frameIndex: 119
+      additiveSortOrder: 0
+      cellRect:
+        x: 122
+        y: 1
+        width: 46
+        height: 47
+      spriteId: 9d2f0137c89241b4b9393aa775d9345a
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_120
+      frameIndex: 120
+      additiveSortOrder: 0
+      cellRect:
+        x: 123
+        y: 1
+        width: 47
+        height: 61
+      spriteId: 4555eaf71adb8304d821d51fd2356800
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_121
+      frameIndex: 121
+      additiveSortOrder: 0
+      cellRect:
+        x: 125
+        y: 1
+        width: 52
+        height: 57
+      spriteId: 74033ee4f75f99f41b06817ee58b79a7
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_122
+      frameIndex: 122
+      additiveSortOrder: 0
+      cellRect:
+        x: 125
+        y: 1
+        width: 52
+        height: 53
+      spriteId: 20bc886516f36724eaef980184a1e839
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_123
+      frameIndex: 123
+      additiveSortOrder: 0
+      cellRect:
+        x: 125
+        y: 1
+        width: 52
+        height: 52
+      spriteId: 12c79284826a1be4aad3c54694661f5e
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_124
+      frameIndex: 124
+      additiveSortOrder: 0
+      cellRect:
+        x: 120
+        y: 1
+        width: 57
+        height: 50
+      spriteId: 2164a9dcf12ff3343a4b5323bbeb0f87
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_125
+      frameIndex: 125
+      additiveSortOrder: 0
+      cellRect:
+        x: 118
+        y: 1
+        width: 59
+        height: 50
+      spriteId: b9023fbd3003af848a9ff27e79e1f3c8
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_126
+      frameIndex: 126
+      additiveSortOrder: 0
+      cellRect:
+        x: 121
+        y: 1
+        width: 115
+        height: 53
+      spriteId: e0ac3923ee3df8c479011795ddbee346
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_127
+      frameIndex: 127
+      additiveSortOrder: 0
+      cellRect:
+        x: 122
+        y: 1
+        width: 127
+        height: 53
+      spriteId: 06ec782726a76274fbfbc2d3a306a6a2
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_128
+      frameIndex: 128
+      additiveSortOrder: 0
+      cellRect:
+        x: 123
+        y: 1
+        width: 142
+        height: 53
+      spriteId: f5c583d924f932e4daac85651be9bcce
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_129
+      frameIndex: 129
+      additiveSortOrder: 0
+      cellRect:
+        x: 125
+        y: 1
+        width: 157
+        height: 53
+      spriteId: 757a47ffc055e4c4fa97b3b31ed2ed81
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_130
+      frameIndex: 130
+      additiveSortOrder: 0
+      cellRect:
+        x: 125
+        y: 1
+        width: 160
+        height: 46
+      spriteId: 19cbcf9e2703cc6418d09907e6bd6eac
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_131
+      frameIndex: 131
+      additiveSortOrder: 0
+      cellRect:
+        x: 125
+        y: 1
+        width: 162
+        height: 44
+      spriteId: 51f10d5017b02d04bbde01dd8efc188e
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_132
+      frameIndex: 132
+      additiveSortOrder: 0
+      cellRect:
+        x: 120
+        y: 1
+        width: 167
+        height: 44
+      spriteId: 56632f2a40eac5b4687c4f5fdd7ea1d8
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_133
+      frameIndex: 133
+      additiveSortOrder: 0
+      cellRect:
+        x: 118
+        y: 1
+        width: 169
+        height: 44
+      spriteId: 8eb8cde11e4b72c468e9f420d2fd01a8
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_134
+      frameIndex: 134
+      additiveSortOrder: 0
+      cellRect:
+        x: 121
+        y: 1
+        width: 44
+        height: 44
+      spriteId: 1e013382ee554e44e8a745832adc469d
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_135
+      frameIndex: 135
+      additiveSortOrder: 0
+      cellRect:
+        x: 122
+        y: 1
+        width: 46
+        height: 47
+      spriteId: 4d8dec86205795e4c9cf6c5df9fc7f10
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_136
+      frameIndex: 136
+      additiveSortOrder: 0
+      cellRect:
+        x: 123
+        y: 1
+        width: 47
+        height: 61
+      spriteId: 6f14f4f6451d90a46a1a910d5e8b4ffb
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_137
+      frameIndex: 137
+      additiveSortOrder: 0
+      cellRect:
+        x: 125
+        y: 1
+        width: 52
+        height: 57
+      spriteId: faa8aab9cca320d4cb756fd37c6b97ac
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_138
+      frameIndex: 138
+      additiveSortOrder: 0
+      cellRect:
+        x: 125
+        y: 1
+        width: 52
+        height: 53
+      spriteId: fabe74169c64959469445063774ffd31
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_139
+      frameIndex: 139
+      additiveSortOrder: 0
+      cellRect:
+        x: 125
+        y: 1
+        width: 52
+        height: 52
+      spriteId: 61ef51ed23e8e1a4e87df840497cd1fe
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_140
+      frameIndex: 140
+      additiveSortOrder: 0
+      cellRect:
+        x: 120
+        y: 1
+        width: 57
+        height: 50
+      spriteId: 561934927bf23a448b36f5f6ba155e93
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_141
+      frameIndex: 141
+      additiveSortOrder: 0
+      cellRect:
+        x: 118
+        y: 1
+        width: 59
+        height: 50
+      spriteId: 89897d72e39010a4ca8dc56d6af6270d
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_142
+      frameIndex: 142
+      additiveSortOrder: 0
+      cellRect:
+        x: 121
+        y: 1
+        width: 130
+        height: 53
+      spriteId: e3a31f3ae97d3d340b49cf53431c653d
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_143
+      frameIndex: 143
+      additiveSortOrder: 0
+      cellRect:
+        x: 122
+        y: 1
+        width: 139
+        height: 53
+      spriteId: 34d828c8ccd97594995f5fa0ce619a60
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_144
+      frameIndex: 144
+      additiveSortOrder: 0
+      cellRect:
+        x: 123
+        y: 1
+        width: 142
+        height: 53
+      spriteId: 48c506ac771e07145a4c2ed219ccf247
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_145
+      frameIndex: 145
+      additiveSortOrder: 0
+      cellRect:
+        x: 125
+        y: 1
+        width: 155
+        height: 53
+      spriteId: 5e20be699b525f84eb17132a1ebb27ea
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_146
+      frameIndex: 146
+      additiveSortOrder: 0
+      cellRect:
+        x: 125
+        y: 1
+        width: 155
+        height: 57
+      spriteId: 8c67181313d71c54c8b22ca834198f42
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_147
+      frameIndex: 147
+      additiveSortOrder: 0
+      cellRect:
+        x: 125
+        y: 1
+        width: 159
+        height: 63
+      spriteId: 1115f1ad412741c4e8beca03ee078f40
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_148
+      frameIndex: 148
+      additiveSortOrder: 0
+      cellRect:
+        x: 120
+        y: 1
+        width: 167
+        height: 69
+      spriteId: e518ae2346421db419e39a38f32095e6
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_149
+      frameIndex: 149
+      additiveSortOrder: 0
+      cellRect:
+        x: 118
+        y: 1
+        width: 147
+        height: 44
+      spriteId: 60d1198770334854db03bc8b3f7d15fc
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_150
+      frameIndex: 150
+      additiveSortOrder: 0
+      cellRect:
+        x: 125
+        y: 1
+        width: 36
+        height: 43
+      spriteId: 59ae876c1db1ffb49a6109c2ab4a6063
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_151
+      frameIndex: 151
+      additiveSortOrder: 0
+      cellRect:
+        x: 122
+        y: 1
+        width: 33
+        height: 43
+      spriteId: a6bbdd07885ae934db97ba58a85c5cda
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_152
+      frameIndex: 152
+      additiveSortOrder: 0
+      cellRect:
+        x: 121
+        y: 1
+        width: 39
+        height: 41
+      spriteId: 262115161f0961c47b20891420a55226
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_153
+      frameIndex: 153
+      additiveSortOrder: 0
+      cellRect:
+        x: 111
+        y: 1
+        width: 50
+        height: 39
+      spriteId: 102677ff1046950479c5f900d3439163
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_154
+      frameIndex: 154
+      additiveSortOrder: 0
+      cellRect:
+        x: 116
+        y: 1
+        width: 43
+        height: 52
+      spriteId: 5ff930faf9bd31c42884fb57c84b2f11
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_155
+      frameIndex: 155
+      additiveSortOrder: 0
+      cellRect:
+        x: 114
+        y: 1
+        width: 40
+        height: 52
+      spriteId: c68d12b8458a2e6498960a36da1862e1
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_156
+      frameIndex: 156
+      additiveSortOrder: 0
+      cellRect:
+        x: 114
+        y: 1
+        width: 40
+        height: 52
+      spriteId: a1c24b7cad7a578419c4b963368cedac
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_157
+      frameIndex: 157
+      additiveSortOrder: 0
+      cellRect:
+        x: 114
+        y: 1
+        width: 49
+        height: 73
+      spriteId: be9433d117c7901418a3dedf91410de6
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_158
+      frameIndex: 158
+      additiveSortOrder: 0
+      cellRect:
+        x: 113
+        y: 1
+        width: 67
+        height: 88
+      spriteId: 825a923818e77d941ab0c57f8b893766
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_159
+      frameIndex: 159
+      additiveSortOrder: 0
+      cellRect:
+        x: 113
+        y: 1
+        width: 66
+        height: 101
+      spriteId: 79e5919e20a04c249afc133d63af53cc
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_160
+      frameIndex: 160
+      additiveSortOrder: 0
+      cellRect:
+        x: 122
+        y: 1
+        width: 32
+        height: 42
+      spriteId: 98011beb81c87be4d99a6b75b7a4bba0
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_161
+      frameIndex: 161
+      additiveSortOrder: 0
+      cellRect:
+        x: 119
+        y: 1
+        width: 48
+        height: 44
+      spriteId: 03b9b7f985fbcad4f8fd013fd7fe586b
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_162
+      frameIndex: 162
+      additiveSortOrder: 0
+      cellRect:
+        x: 125
+        y: 1
+        width: 36
+        height: 43
+      spriteId: adf7c11ba39270d49bab2fcf68e6008b
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_163
+      frameIndex: 163
+      additiveSortOrder: 0
+      cellRect:
+        x: 122
+        y: 1
+        width: 33
+        height: 43
+      spriteId: 3bda1cb7f7c1a9b4bb24b6d0a06c7b8b
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_164
+      frameIndex: 164
+      additiveSortOrder: 0
+      cellRect:
+        x: 121
+        y: 1
+        width: 39
+        height: 41
+      spriteId: cc3e7f1f2d35ea244ac704dc6ad80e20
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_165
+      frameIndex: 165
+      additiveSortOrder: 0
+      cellRect:
+        x: 111
+        y: 1
+        width: 50
+        height: 39
+      spriteId: a6379fe5657ea1747bdc3a3c805af892
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_166
+      frameIndex: 166
+      additiveSortOrder: 0
+      cellRect:
+        x: 116
+        y: 1
+        width: 43
+        height: 52
+      spriteId: 7e6c65b6b58342b4f9d836a74e97597e
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_167
+      frameIndex: 167
+      additiveSortOrder: 0
+      cellRect:
+        x: 114
+        y: 1
+        width: 40
+        height: 52
+      spriteId: 9732a820151bbc7449cd195eb1f84be2
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_168
+      frameIndex: 168
+      additiveSortOrder: 0
+      cellRect:
+        x: 114
+        y: 1
+        width: 40
+        height: 52
+      spriteId: eb2dfa2fbf82a2e45a142ea701f3c731
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_169
+      frameIndex: 169
+      additiveSortOrder: 0
+      cellRect:
+        x: 114
+        y: 1
+        width: 49
+        height: 73
+      spriteId: 04b79c30291f437459df1ace81936428
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_170
+      frameIndex: 170
+      additiveSortOrder: 0
+      cellRect:
+        x: 113
+        y: 1
+        width: 67
+        height: 88
+      spriteId: 5780873f51d45cb4cbaaadc668062c48
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_171
+      frameIndex: 171
+      additiveSortOrder: 0
+      cellRect:
+        x: 113
+        y: 1
+        width: 66
+        height: 101
+      spriteId: 305b4a84a7af15e438ba36bde13512bb
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_172
+      frameIndex: 172
+      additiveSortOrder: 0
+      cellRect:
+        x: 122
+        y: 1
+        width: 32
+        height: 42
+      spriteId: ef1e910bae3224e40a1be95a252a2dfd
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_173
+      frameIndex: 173
+      additiveSortOrder: 0
+      cellRect:
+        x: 119
+        y: 1
+        width: 48
+        height: 44
+      spriteId: 75f88ec1a3fd1d849ac627cbb53b8012
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_174
+      frameIndex: 174
+      additiveSortOrder: 0
+      cellRect:
+        x: 118
+        y: 1
+        width: 49
+        height: 44
+      spriteId: d94327e402700bb47b791b1cf0aa7c43
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_175
+      frameIndex: 175
+      additiveSortOrder: 0
+      cellRect:
+        x: 119
+        y: 1
+        width: 48
+        height: 44
+      spriteId: 146a75f163be0954caabce2fd6a7d1b0
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_176
+      frameIndex: 176
+      additiveSortOrder: 0
+      cellRect:
+        x: 118
+        y: 1
+        width: 49
+        height: 44
+      spriteId: 55dfdcdc5bfdeee4e829690c0f225d15
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_177
+      frameIndex: 177
+      additiveSortOrder: 0
+      cellRect:
+        x: 119
+        y: 1
+        width: 48
+        height: 44
+      spriteId: af9b2ed9a46e9d0448825e9ee0df9eb5
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_178
+      frameIndex: 178
+      additiveSortOrder: 0
+      cellRect:
+        x: 119
+        y: 1
+        width: 48
+        height: 44
+      spriteId: 139f120518f63ae489a8211e7b001404
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_179
+      frameIndex: 179
+      additiveSortOrder: 0
+      cellRect:
+        x: 121
+        y: 1
+        width: 45
+        height: 44
+      spriteId: 5f8c612cca204f54baa6b02b21342df1
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_180
+      frameIndex: 180
+      additiveSortOrder: 0
+      cellRect:
+        x: 121
+        y: 1
+        width: 45
+        height: 43
+      spriteId: 429ed568114f5e94abd7704593d0926c
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_181
+      frameIndex: 181
+      additiveSortOrder: 0
+      cellRect:
+        x: 122
+        y: 1
+        width: 145
+        height: 119
+      spriteId: 27db3f17394f1ea4e9ab6c132e7f359a
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_182
+      frameIndex: 182
+      additiveSortOrder: 0
+      cellRect:
+        x: 122
+        y: 1
+        width: 148
+        height: 122
+      spriteId: 5e99c0bde743b294ab104c0b58d1fe92
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_183
+      frameIndex: 183
+      additiveSortOrder: 0
+      cellRect:
+        x: 122
+        y: 1
+        width: 148
+        height: 120
+      spriteId: b1d1132f37a559f4e84163631683b1ca
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_184
+      frameIndex: 184
+      additiveSortOrder: 0
+      cellRect:
+        x: 121
+        y: 1
+        width: 149
+        height: 119
+      spriteId: fc381798419468642bea97e4a7bdd855
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_185
+      frameIndex: 185
+      additiveSortOrder: 0
+      cellRect:
+        x: 119
+        y: 1
+        width: 151
+        height: 118
+      spriteId: 8ca451ddcb378c444bf6074ee6c85e57
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_186
+      frameIndex: 186
+      additiveSortOrder: 0
+      cellRect:
+        x: 118
+        y: 1
+        width: 155
+        height: 122
+      spriteId: 6d3c465842a5d0447b90291425b1dd82
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_187
+      frameIndex: 187
+      additiveSortOrder: 0
+      cellRect:
+        x: 119
+        y: 1
+        width: 155
+        height: 122
+      spriteId: e0f242e43f70f8a439ed9206e7597122
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_188
+      frameIndex: 188
+      additiveSortOrder: 0
+      cellRect:
+        x: 118
+        y: 1
+        width: 163
+        height: 120
+      spriteId: 97e30a4d9d15f5c44808ca3496386a07
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_189
+      frameIndex: 189
+      additiveSortOrder: 0
+      cellRect:
+        x: 119
+        y: 1
+        width: 157
+        height: 120
+      spriteId: 59d2dd6e2de32a94d8a982e442c30915
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_190
+      frameIndex: 190
+      additiveSortOrder: 0
+      cellRect:
+        x: 119
+        y: 1
+        width: 152
+        height: 53
+      spriteId: 3074467caa140fa489425ca68974571e
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_191
+      frameIndex: 191
+      additiveSortOrder: 0
+      cellRect:
+        x: 121
+        y: 1
+        width: 151
+        height: 44
+      spriteId: 07a58dfc345c2fc488714fd2fbad836d
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_192
+      frameIndex: 192
+      additiveSortOrder: 0
+      cellRect:
+        x: 121
+        y: 1
+        width: 145
+        height: 43
+      spriteId: b5fa4e74bdbe0e74f8096b9e361334f2
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_193
+      frameIndex: 193
+      additiveSortOrder: 0
+      cellRect:
+        x: 122
+        y: 1
+        width: 124
+        height: 43
+      spriteId: 502ba785150b599478512bf325ab6617
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_194
+      frameIndex: 194
+      additiveSortOrder: 0
+      cellRect:
+        x: 122
+        y: 1
+        width: 106
+        height: 43
+      spriteId: 6ff3043ea1f21474aa957076374d9170
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_195
+      frameIndex: 195
+      additiveSortOrder: 0
+      cellRect:
+        x: 122
+        y: 1
+        width: 101
+        height: 43
+      spriteId: aa23c6a22ea259f41b7109018e5c5bcc
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_196
+      frameIndex: 196
+      additiveSortOrder: 0
+      cellRect:
+        x: 121
+        y: 1
+        width: 102
+        height: 43
+      spriteId: 98a1b1fbce558b24eae52867b82a3265
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_197
+      frameIndex: 197
+      additiveSortOrder: 0
+      cellRect:
+        x: 119
+        y: 1
+        width: 102
+        height: 44
+      spriteId: cd9e5bfafab15924f871a5cd14138f95
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_198
+      frameIndex: 198
+      additiveSortOrder: 0
+      cellRect:
+        x: 125
+        y: 1
+        width: 39
+        height: 42
+      spriteId: 3dfb618809ceb5b4f85433d73d4f0c7a
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_199
+      frameIndex: 199
+      additiveSortOrder: 0
+      cellRect:
+        x: 123
+        y: 1
+        width: 37
+        height: 39
+      spriteId: 757277c84c968a84681b5493758c1df3
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_200
+      frameIndex: 200
+      additiveSortOrder: 0
+      cellRect:
+        x: 117
+        y: 1
+        width: 47
+        height: 36
+      spriteId: 17570892750afe0448dc42e25a752cf3
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_201
+      frameIndex: 201
+      additiveSortOrder: 0
+      cellRect:
+        x: 100
+        y: 1
+        width: 61
+        height: 35
+      spriteId: 9a82293e3315a2a4382b2844bf0bcce1
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_202
+      frameIndex: 202
+      additiveSortOrder: 0
+      cellRect:
+        x: 104
+        y: 1
+        width: 59
+        height: 39
+      spriteId: 7248cc80ec8ea1e44af0c4371aa2bb9f
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_203
+      frameIndex: 203
+      additiveSortOrder: 0
+      cellRect:
+        x: 105
+        y: 1
+        width: 55
+        height: 35
+      spriteId: 33a43c9d0be16bc41844db6c815504b6
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_204
+      frameIndex: 204
+      additiveSortOrder: 0
+      cellRect:
+        x: 107
+        y: 1
+        width: 63
+        height: 45
+      spriteId: 41b0543593fe0fc468a2fd1b158f227d
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_205
+      frameIndex: 205
+      additiveSortOrder: 0
+      cellRect:
+        x: 109
+        y: 1
+        width: 64
+        height: 47
+      spriteId: edeb77996f087fd46af0f2261e63cf1d
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_206
+      frameIndex: 206
+      additiveSortOrder: 0
+      cellRect:
+        x: 109
+        y: 1
+        width: 72
+        height: 58
+      spriteId: f1065838949b34e43b5bd3538606613e
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_207
+      frameIndex: 207
+      additiveSortOrder: 0
+      cellRect:
+        x: 108
+        y: 1
+        width: 180
+        height: 35
+      spriteId: 306f5581c0f864048af27e0ae5789d04
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_208
+      frameIndex: 208
+      additiveSortOrder: 0
+      cellRect:
+        x: 102
+        y: 1
+        width: 186
+        height: 35
+      spriteId: 99251f502c9ca7b46a30f40d1aa270dd
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_209
+      frameIndex: 209
+      additiveSortOrder: 0
+      cellRect:
+        x: 94
+        y: 1
+        width: 194
+        height: 29
+      spriteId: e987cc51631a1b647ba1acbaade009d1
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_210
+      frameIndex: 210
+      additiveSortOrder: 0
+      cellRect:
+        x: 93
+        y: 1
+        width: 195
+        height: 29
+      spriteId: 1eecce6db219b2040a0dce83fcd155fe
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_211
+      frameIndex: 211
+      additiveSortOrder: 0
+      cellRect:
+        x: 93
+        y: 1
+        width: 41
+        height: 29
+      spriteId: 0dceb7f6efc566b46a9f6ca704c7e8c7
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_212
+      frameIndex: 212
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 1
+        width: 47
+        height: 38
+      spriteId: e64026f41d386244ca5e96924a4537a8
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_213
+      frameIndex: 213
+      additiveSortOrder: 0
+      cellRect:
+        x: 122
+        y: 1
+        width: 39
+        height: 40
+      spriteId: faba4964922e51b45800eb114fb3f4f3
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_214
+      frameIndex: 214
+      additiveSortOrder: 0
+      cellRect:
+        x: 119
+        y: 1
+        width: 48
+        height: 44
+      spriteId: 65f913cbd181bbd40b9df3e688712749
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_215
+      frameIndex: 215
+      additiveSortOrder: 0
+      cellRect:
+        x: 126
+        y: 1
+        width: 35
+        height: 47
+      spriteId: e13004e5eea1e0b4989cf39ddd74ad07
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_216
+      frameIndex: 216
+      additiveSortOrder: 0
+      cellRect:
+        x: 125
+        y: 1
+        width: 33
+        height: 47
+      spriteId: e14e5c011bc8f604c88fc6e1d54e0068
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_217
+      frameIndex: 217
+      additiveSortOrder: 0
+      cellRect:
+        x: 132
+        y: 1
+        width: 39
+        height: 42
+      spriteId: 12b30224faabaf94cbb6c9a74c4a2378
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_218
+      frameIndex: 218
+      additiveSortOrder: 0
+      cellRect:
+        x: 139
+        y: 1
+        width: 45
+        height: 52
+      spriteId: 0783eb73ae185ad47904487275e5221f
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_219
+      frameIndex: 219
+      additiveSortOrder: 0
+      cellRect:
+        x: 140
+        y: 1
+        width: 44
+        height: 52
+      spriteId: 1b43ffcc6b22cce41926aae60e2e6967
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_220
+      frameIndex: 220
+      additiveSortOrder: 0
+      cellRect:
+        x: 140
+        y: 1
+        width: 47
+        height: 53
+      spriteId: 226ed265696572f4594694d29379e4c4
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_221
+      frameIndex: 221
+      additiveSortOrder: 0
+      cellRect:
+        x: 140
+        y: 1
+        width: 53
+        height: 54
+      spriteId: aaff662baca533146a48d9a7a0fd3eb1
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_222
+      frameIndex: 222
+      additiveSortOrder: 0
+      cellRect:
+        x: 139
+        y: 1
+        width: 52
+        height: 65
+      spriteId: 7fc1f119f759d164d8a06661e3744ac7
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_223
+      frameIndex: 223
+      additiveSortOrder: 0
+      cellRect:
+        x: 139
+        y: 1
+        width: 52
+        height: 65
+      spriteId: 07fb1eac7873a3d459561de56134eb35
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_224
+      frameIndex: 224
+      additiveSortOrder: 0
+      cellRect:
+        x: 139
+        y: 1
+        width: 52
+        height: 65
+      spriteId: 3bc19c114677e3a47b899f4f70854f81
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_225
+      frameIndex: 225
+      additiveSortOrder: 0
+      cellRect:
+        x: 139
+        y: 1
+        width: 52
+        height: 65
+      spriteId: a8186a554c2d6694aad8de4895aaa9a5
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_226
+      frameIndex: 226
+      additiveSortOrder: 0
+      cellRect:
+        x: 139
+        y: 1
+        width: 52
+        height: 65
+      spriteId: 3c9c6146a0268e240b6323302cdfa5c4
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_227
+      frameIndex: 227
+      additiveSortOrder: 0
+      cellRect:
+        x: 139
+        y: 1
+        width: 52
+        height: 65
+      spriteId: 16a8b08dbde33774ab01165d16e89ee6
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_228
+      frameIndex: 228
+      additiveSortOrder: 0
+      cellRect:
+        x: 140
+        y: 1
+        width: 53
+        height: 54
+      spriteId: 17416739fed35e24d9cccc766f5f8e7f
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_229
+      frameIndex: 229
+      additiveSortOrder: 0
+      cellRect:
+        x: 140
+        y: 1
+        width: 47
+        height: 53
+      spriteId: edf9fe7cf1403894287c467501678cae
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_230
+      frameIndex: 230
+      additiveSortOrder: 0
+      cellRect:
+        x: 140
+        y: 1
+        width: 44
+        height: 52
+      spriteId: 2d56f07525dd0104780a873f2e236137
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_231
+      frameIndex: 231
+      additiveSortOrder: 0
+      cellRect:
+        x: 140
+        y: 1
+        width: 44
+        height: 52
+      spriteId: 723bbbc3aae787d47926f211441d1271
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_232
+      frameIndex: 232
+      additiveSortOrder: 0
+      cellRect:
+        x: 134
+        y: 1
+        width: 37
+        height: 44
+      spriteId: a6f1e597dead3064abd98d81163afcc3
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_233
+      frameIndex: 233
+      additiveSortOrder: 0
+      cellRect:
+        x: 122
+        y: 1
+        width: 45
+        height: 44
+      spriteId: ec6fe491c4ace3d41ac088e9b2d51b77
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_234
+      frameIndex: 234
+      additiveSortOrder: 0
+      cellRect:
+        x: 121
+        y: 1
+        width: 39
+        height: 42
+      spriteId: f85f785a05eb75840acb647ab521308e
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_235
+      frameIndex: 235
+      additiveSortOrder: 0
+      cellRect:
+        x: 121
+        y: 1
+        width: 39
+        height: 42
+      spriteId: b5ccf89e5a78b11459bbb73f6092288a
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_236
+      frameIndex: 236
+      additiveSortOrder: 0
+      cellRect:
+        x: 113
+        y: 1
+        width: 39
+        height: 50
+      spriteId: 9515591ad6d1ac747a3f63e29bd491c2
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_237
+      frameIndex: 237
+      additiveSortOrder: 0
+      cellRect:
+        x: 112
+        y: 1
+        width: 36
+        height: 50
+      spriteId: d479316e7c54d154ab47e935e0c56762
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_238
+      frameIndex: 238
+      additiveSortOrder: 0
+      cellRect:
+        x: 113
+        y: 1
+        width: 36
+        height: 50
+      spriteId: d1e8a3835f895ca40994dc3b5eea56fe
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_239
+      frameIndex: 239
+      additiveSortOrder: 0
+      cellRect:
+        x: 119
+        y: 1
+        width: 48
+        height: 44
+      spriteId: 38d5c00809395354f9c0d3fe42032107
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_240
+      frameIndex: 240
+      additiveSortOrder: 0
+      cellRect:
+        x: 119
+        y: 1
+        width: 48
+        height: 44
+      spriteId: 314f99675d907464cba62de7b0170591
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_241
+      frameIndex: 241
+      additiveSortOrder: 0
+      cellRect:
+        x: 122
+        y: 1
+        width: 58
+        height: 42
+      spriteId: e57741197e09ea0479423f76aec45412
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_242
+      frameIndex: 242
+      additiveSortOrder: 0
+      cellRect:
+        x: 125
+        y: 1
+        width: 56
+        height: 39
+      spriteId: 4c3499b439057534ea02245b0a7751de
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_243
+      frameIndex: 243
+      additiveSortOrder: 0
+      cellRect:
+        x: 130
+        y: 1
+        width: 48
+        height: 34
+      spriteId: b8511e4033f95de4ebb2dd9cff480873
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_244
+      frameIndex: 244
+      additiveSortOrder: 0
+      cellRect:
+        x: 130
+        y: 1
+        width: 46
+        height: 33
+      spriteId: c7e1a358907a199439be8fe3d05ec640
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_245
+      frameIndex: 245
+      additiveSortOrder: 0
+      cellRect:
+        x: 129
+        y: 1
+        width: 47
+        height: 33
+      spriteId: 546846d4c26b5a044814b7324d903378
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_246
+      frameIndex: 246
+      additiveSortOrder: 0
+      cellRect:
+        x: 128
+        y: 1
+        width: 49
+        height: 33
+      spriteId: 9f43854994242274c9e0b17eee9280b3
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_247
+      frameIndex: 247
+      additiveSortOrder: 0
+      cellRect:
+        x: 128
+        y: 1
+        width: 48
+        height: 33
+      spriteId: b5ce7a28ba2110744a8d13d42f7ef53a
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_248
+      frameIndex: 248
+      additiveSortOrder: 0
+      cellRect:
+        x: 128
+        y: 1
+        width: 47
+        height: 33
+      spriteId: 8e79fcfb227757342b996a79cbb9379f
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_249
+      frameIndex: 249
+      additiveSortOrder: 0
+      cellRect:
+        x: 128
+        y: 1
+        width: 47
+        height: 33
+      spriteId: d673338b6d5b2c3408d70407d71ba262
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_250
+      frameIndex: 250
+      additiveSortOrder: 0
+      cellRect:
+        x: 130
+        y: 1
+        width: 45
+        height: 33
+      spriteId: ed1fbc444079b5549a9ef4a3fe0146fd
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_251
+      frameIndex: 251
+      additiveSortOrder: 0
+      cellRect:
+        x: 132
+        y: 1
+        width: 43
+        height: 27
+      spriteId: 59582f3e7cc939a4db96fbac8988ce59
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_252
+      frameIndex: 252
+      additiveSortOrder: 0
+      cellRect:
+        x: 132
+        y: 1
+        width: 51
+        height: 11
+      spriteId: 76d318ceb9230724e9112cbcf8f53eb6
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_253
+      frameIndex: 253
+      additiveSortOrder: 0
+      cellRect:
+        x: 132
+        y: 1
+        width: 56
+        height: 7
+      spriteId: 30e6e7e00cb8fe047a3b8c2951e6e228
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_254
+      frameIndex: 254
+      additiveSortOrder: 0
+      cellRect:
+        x: 132
+        y: 1
+        width: 57
+        height: 6
+      spriteId: e57914dbe06e613409e633351119f2f0
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_255
+      frameIndex: 255
+      additiveSortOrder: 0
+      cellRect:
+        x: 132
+        y: 1
+        width: 58
+        height: 6
+      spriteId: c8d6aab1190fb5545ad9d7aefb407a5a
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_256
+      frameIndex: 256
+      additiveSortOrder: 0
+      cellRect:
+        x: 132
+        y: 1
+        width: 58
+        height: 6
+      spriteId: f33fd187a8be0a343b12270fb32a463b
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_257
+      frameIndex: 257
+      additiveSortOrder: 0
+      cellRect:
+        x: 132
+        y: 1
+        width: 58
+        height: 6
+      spriteId: 7332ecf0c47d35147b358059f307ad3d
+    - name: Elementals_leaf_ranger_free_v1.0_Frame_258
+      frameIndex: 258
+      additiveSortOrder: 0
+      cellRect:
+        x: 132
+        y: 1
+        width: 58
+        height: 6
+      spriteId: e2f4bdb87f5af6541a86897a036c623e
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 288, y: 128}

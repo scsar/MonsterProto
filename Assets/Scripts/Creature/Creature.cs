@@ -145,15 +145,31 @@ public class Creature : MonoBehaviour
         Debug.Log("Attack");
         isActive = true;
         // 스킬을 보유하고있는 스크립트를 불러와 사용후
-        GetComponent<CreatureSkill>().ActiveSkill(damage, target, creatureNum);
-        yield return new WaitUntil(() => GetComponent<CreatureSkill>().isFinished == true);
-        isActive = false;
-        animator.SetBool("isAttack", false);
-        // 일정시간 대기
-        for(int i = 0; i < 5; i++)
+        if (creatureType != 2)
         {
-            yield return new WaitForSeconds(1f);
+            GetComponent<CreatureSkill>().ActiveSkill(damage, target, creatureNum);
+            yield return new WaitUntil(() => GetComponent<CreatureSkill>().isFinished == true);
+            isActive = false;
+            animator.SetBool("isAttack", false);
+            // 일정시간 대기
+            for(int i = 0; i < 5; i++)
+            {
+                yield return new WaitForSeconds(1f);
+            }
         }
+        else
+        {
+            Debug.Log("BossAttack");
+            GetComponent<BossSkill>().ActiveSkill(target, creatureNum);
+            yield return new WaitUntil(() => GetComponent<BossSkill>().isFinished == true);
+            isActive = false;
+
+            for(int i = 0; i < 2; i++)
+            {
+                yield return new WaitForSeconds(1f);
+            }
+        }
+        
         // 스킬을 다시 사용할수있게 변경
         isAttacked = false;
     }
