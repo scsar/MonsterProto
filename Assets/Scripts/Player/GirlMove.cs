@@ -15,7 +15,7 @@ public class GirlMove : MonoBehaviour
     private bool isGrounded;
 
     private bool isMovingTowardsCursor = false;
-    private bool canMoveOnVine = false; // Vine À§¿¡¼­ ÀÌµ¿ °¡´É ¿©ºÎ
+    private bool canMoveOnVine = false; // Vine ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ìµï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
     private Vector2 movement;
 
 
@@ -33,7 +33,6 @@ public class GirlMove : MonoBehaviour
     {
         if (canMoveOnVine)
         {
-            //Debug.Log("À§·Î ÀÌµ¿ °¡´É");
             float moveVertical = Input.GetAxis("Vertical");
             float moveHorizontal = Input.GetAxis("Horizontal");
             rb.velocity = new Vector2(moveHorizontal * speed*0.5f, moveVertical * speed * 0.5f);
@@ -62,7 +61,7 @@ public class GirlMove : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
-            isGrounded = true;  // ¹Ù´Ú¿¡ ´êÀ¸¸é Á¡ÇÁ °¡´É
+            isGrounded = true;  // ï¿½Ù´Ú¿ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
         }
         if (collision.gameObject.CompareTag("Dead"))
         {

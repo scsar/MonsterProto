@@ -3,7 +3,7 @@ guid: d719fb2785e4f93488b53a83a90d7fb3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -106,9 +106,274 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Trunk-V2 1-30_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1348
+        width: 300
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d28de7aee58be744c85583919353f36a
+      internalID: 403529154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk-V2 1-30_1
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1348
+        width: 300
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 439a97832246cf949821edffda1e5432
+      internalID: 752190902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk-V2 1-30_2
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1348
+        width: 300
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5564c4616d34ba64dbf1ce00e422a075
+      internalID: -539070624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk-V2 1-30_3
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1348
+        width: 300
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be07cecd00db9844937c22e9d157c18
+      internalID: 705725453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk-V2 1-30_4
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1348
+        width: 300
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2e97db23f9c934b9adffc3999b64c9
+      internalID: -209733342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk-V2 1-30_5
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1348
+        width: 300
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b431c2e62b8110498f1dc4228427af0
+      internalID: -506633217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk-V2 1-30_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 648
+        width: 300
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e9391baf133434cbea0a4447e63bb8
+      internalID: -2118653743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk-V2 1-30_7
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 648
+        width: 300
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec71c8a21a28e134f8db9ffea5ce0c4c
+      internalID: 1725728206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk-V2 1-30_8
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 648
+        width: 300
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623022ab7b682e941b124adcdf07900c
+      internalID: 460151769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk-V2 1-30_9
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 648
+        width: 300
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c9d1f3e6a24d347980e4c9655a16b4
+      internalID: 1363595372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk-V2 1-30_10
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 648
+        width: 300
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5cb7940ceacb642a5fbe3ac0273614
+      internalID: -95048279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk-V2 1-30_11
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 648
+        width: 300
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e86e70faa00a85140aaa1e6ac5d50c67
+      internalID: -792525088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +384,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Trunk-V2 1-30_0: 403529154
+      Trunk-V2 1-30_1: 752190902
+      Trunk-V2 1-30_10: -95048279
+      Trunk-V2 1-30_11: -792525088
+      Trunk-V2 1-30_2: -539070624
+      Trunk-V2 1-30_3: 705725453
+      Trunk-V2 1-30_4: -209733342
+      Trunk-V2 1-30_5: -506633217
+      Trunk-V2 1-30_6: -2118653743
+      Trunk-V2 1-30_7: 1725728206
+      Trunk-V2 1-30_8: 460151769
+      Trunk-V2 1-30_9: 1363595372
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -12,6 +12,12 @@ public class LeafBoss : MonoBehaviour
     public GameObject linePrefeb;
     public Transform ShootPosition;
     
+    private Animator animator;
+
+    public void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
 
 
     public IEnumerator LeafSkill(Transform target)
@@ -37,28 +43,37 @@ public class LeafBoss : MonoBehaviour
 
     private IEnumerator ArrowShower()
     {
-        for (int i = 0; i <= 6;)
+        animator.SetTrigger("ArrowRain");
+        yield return new WaitForSeconds(0.5f);
+
+        for (int j = 0; j < 2; j++)
         {
-            int rand = Random.Range(0, 10);
-            if (transform.GetChild(rand).gameObject.activeSelf == false)
+            for (int i = 0; i <= 6;)
             {
-                transform.GetChild(rand).gameObject.SetActive(true);
-                i++;
+                int rand = Random.Range(0, 10);
+                if (transform.GetChild(rand).gameObject.activeSelf == false)
+                {
+                    transform.GetChild(rand).gameObject.SetActive(true);
+                    i++;
+                }
+            }
+
+            yield return new WaitForSeconds(1f);
+
+            for (int i = 0; i <= 9; i++)
+            {
+                transform.GetChild(i).gameObject.SetActive(false);
             }
         }
-
-        yield return new WaitForSeconds(1f);
-
-        for (int i = 0; i <= 9; i++)
-        {
-            transform.GetChild(i).gameObject.SetActive(false);
-        }
+        
     }
 
     private IEnumerator ShootArrow()
     {
         for (int i = 0; i < 3; i++)
         {
+            animator.SetTrigger("ShootArrow");
+            yield return new WaitForSeconds(0.5f);
             GameObject shootarrow = Instantiate(Shootarrow);
             shootarrow.transform.position = ShootPosition.position;
             yield return new WaitForSeconds(0.5f);
@@ -67,6 +82,8 @@ public class LeafBoss : MonoBehaviour
 
     private IEnumerator ArrowSpread(Transform target)
     {
+        animator.SetBool("ArrowSpread2", true);
+        animator.SetTrigger("ArrowSpread");
         int rand = Random.Range(0, 4);
         transform.position = moveandShootPosition[rand].transform.position;
         GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
@@ -99,5 +116,6 @@ public class LeafBoss : MonoBehaviour
         }
 
         GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
+        animator.SetBool("ArrowSpread2", false);
     }
 }

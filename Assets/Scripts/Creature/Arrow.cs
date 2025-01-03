@@ -13,6 +13,10 @@ public class Arrow : MonoBehaviour
     {
         target = GameObject.FindWithTag("Player").transform;
         dir = (target.position - transform.position).normalized;
+        if (dir.x < 0)
+        {
+            gameObject.transform.localScale = new Vector3(-3, 3, 1);
+        }
         Destroy(gameObject, 1f);
     }
 
