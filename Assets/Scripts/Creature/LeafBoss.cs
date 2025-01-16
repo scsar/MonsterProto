@@ -89,7 +89,7 @@ public class LeafBoss : MonoBehaviour
         GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
 
         List<GameObject> lines = new List<GameObject>();
-        for (float i = 0; i < 36; i+= 1)
+        for (float i = 0; i < 24; i++)
         {
             Vector3 direction = target.position - transform.position;
             float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
@@ -104,14 +104,18 @@ public class LeafBoss : MonoBehaviour
         }
         yield return new WaitForSeconds(1f);
         // 리스트에 저장한 라인 각각 꺼내서 pop하면서 발사.
-        for (int i = 0; i < 36; i++)
+        for (int i = 0; i < 24; i++)
         {
             float lineAngle = (lines[i].transform.eulerAngles.z - 90f) * Mathf.Deg2Rad;
             Vector3 direction = new Vector3(Mathf.Cos(lineAngle), Mathf.Sin(lineAngle), 0);
             
             GameObject attack = Instantiate(Droparrow);
             attack.transform.position = lines[i].transform.position;
-            attack.GetComponent<DropArrow>().dir = direction;
+
+            float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+            attack.transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle - 180f));
+
+            attack.GetComponent<DropArrow>().dir = direction;  // 이동방향 결정
             Destroy(lines[i]);
         }
 
