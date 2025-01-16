@@ -5,14 +5,17 @@ using UnityEngine;
 public class WolfMove : MonoBehaviour
 {
     private SpriteRenderer spriteRenderer; // 이 스크립트가 적용된 오브젝트의 SpriteRenderer
-    private Collider2D Wolf_Col; // 이 스크립트가 적용된 오브젝트의 Collider2D
+    private Collider2D Wolf_Col; // 이 스크립트가 적용된 오브젝트의 Collider2D\    private Animator anim;
+    private Animator anim;
+
     public float moveDistance = 10f; // Ctrl 키를 누를 때 이동할 거리
-    public float Wolf_moveSpeed = 30f; // 마우스 커서 방향으로 이동할 속도
+    public float Wolf_moveSpeed = 60f; // 마우스 커서 방향으로 이동할 속도
 
     private bool isMovingTowardsCursor = false;
     private bool isTriggerEnabled = true;
-
     public GameObject ctrl_Attack; // 활성화할 게임 오브젝트
+
+    public GameObject DontMove;
 
     void Start()
     {
@@ -20,6 +23,8 @@ public class WolfMove : MonoBehaviour
         isTriggerEnabled = true;
         spriteRenderer = GetComponent<SpriteRenderer>();
         Wolf_Col = GetComponent<Collider2D>();
+        anim = GetComponent<Animator>();
+
     }
 
     void Update()
@@ -34,16 +39,27 @@ public class WolfMove : MonoBehaviour
                 }
             }
 
-            if (Input.GetMouseButtonDown(0) && isTriggerEnabled) // 이미 이동 중이 아닌 경우에만 시작
+            if (Input.GetMouseButtonDown(0) ) // 이미 이동 중이 아닌 경우에만 시작
             {
-                StartCoroutine(MoveTowardsCursor());
+                if (!Wolf_Col.isTrigger)
+                {
+                    StartCoroutine(ShowText());
+                }
+                else if (isTriggerEnabled)
+                {
+                    StartCoroutine(MoveTowardsCursor());
+                }
+
+                    
             }
             else if (Input.GetMouseButtonDown(1))
             {
                 if (isTriggerEnabled)
                 {
+                    anim.SetBool("fix", true);
+
                     spriteRenderer.color = Color.gray;
-                    Debug.Log("고정");
+                    //Debug.Log("고정");
                     GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Kinematic;
                     Wolf_Col.isTrigger = false;
                     isTriggerEnabled = false;
@@ -51,8 +67,10 @@ public class WolfMove : MonoBehaviour
                 }
                 else
                 {
+                    anim.SetBool("fix", false);
+
                     spriteRenderer.color = Color.white;
-                    Debug.Log("해제");
+                    //Debug.Log("해제");
                     Wolf_Col.isTrigger = true;
                     isTriggerEnabled = true;
                 }
@@ -61,13 +79,18 @@ public class WolfMove : MonoBehaviour
     }
     IEnumerator Basic_attack()
     {
+        anim.SetBool("attack", true);
         ctrl_Attack.SetActive(true);
         yield return new WaitForSeconds(0.2f);
         ctrl_Attack.SetActive(false);
+        anim.SetBool("attack", false);
+
     }
 
     IEnumerator MoveTowardsCursor()
     {
+        anim.SetBool("move", true);
+
         isMovingTowardsCursor = true;
 
         // 마우스 커서의 월드 좌표 가져오기 (2D 기준)
@@ -91,7 +114,20 @@ public class WolfMove : MonoBehaviour
             yield return null;
         }
 
-        yield return new WaitForSeconds(0.3f);
+        yield return new WaitForSeconds(0.1f);
         isMovingTowardsCursor = false;
+        anim.SetBool("move", false);
+
+    }
+
+    IEnumerator ShowText()
+    {
+        DontMove.SetActive(true);
+        yield return new WaitForSeconds(0.5f);
+        DontMove.SetActive(false);
+        yield return new WaitForSeconds(0.5f);
+        DontMove.SetActive(true);
+        yield return new WaitForSeconds(0.5f);
+        DontMove.SetActive(false);
     }
 }

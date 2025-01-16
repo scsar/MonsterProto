@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static OrthoParallax;
 
 public class CameraMode : MonoBehaviour
 {
@@ -48,8 +49,10 @@ public class CameraMode : MonoBehaviour
         Vector3 newPosition = new Vector3(player.position.x, transform.position.y, transform.position.z);
         transform.position = newPosition;
     }
-    private void CameraMove2() { 
-        
+    private void CameraMove2() {
+        Debug.Log("2·Î");
+        Vector3 newPosition = new Vector3(player.position.x, player.position.y, 0);
+        transform.position = newPosition;
     }
     private void CameraMove3(){
 
