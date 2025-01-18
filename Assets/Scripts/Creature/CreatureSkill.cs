@@ -25,7 +25,7 @@ public class CreatureSkill : MonoBehaviour
     public void ActiveSkill(float damage, Transform target, int creatureNum)
     {
         isFinished = false;
-        // 현재 몬스터가 어떤스테이지에 존재하는지 파악하고 이에따라 사용할수있는 스킬을 제한한다.
+        // 현재 몬스터의 번호에따라 사용할수있는 스킬을 제한한다.
         switch (creatureNum)
         {
             case 1:

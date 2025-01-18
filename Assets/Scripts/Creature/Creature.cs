@@ -56,9 +56,11 @@ public class Creature : MonoBehaviour
         }
         target = GameObject.FindGameObjectWithTag("Player").transform;
 
+        // 공격 관련 변수 초기화
         isAttacked = false;
         isActive = false;
 
+        // 몬스터 데이터 삽입
         Hp = creatureData._creatureHp;
         damage = creatureData._creatureDamage;
         creatureNum = creatureData._creatureNumber;
@@ -70,6 +72,7 @@ public class Creature : MonoBehaviour
 
     void Update()
     {
+        // 근접 몬스터 이동패턴
         if (creatureType == 0 && !isActive)
         {
             float moveDirection = isMovingRight ? 1f : -1f;
@@ -80,6 +83,7 @@ public class Creature : MonoBehaviour
 
     void FixedUpdate()
     {
+        // creatureType = 0 == 근접 몬스터
         if (Vector2.Distance(transform.position, target.position) < searchDistance && !isActive && creatureType != 0)
         {
             // 이동 Animation 활성화
@@ -124,6 +128,8 @@ public class Creature : MonoBehaviour
             Vector2 dir = (target.position - transform.position).normalized;
             if (dir.x > 0)
             {
+                //TODO
+                // rotation 변경이 아닌, scale변경으로 수정
                 dir.x = -dir.x;
                 transform.rotation = Quaternion.Euler(0, -180, dir.x);
             }
@@ -144,7 +150,8 @@ public class Creature : MonoBehaviour
         }
         Debug.Log("Attack");
         isActive = true;
-        // 스킬을 보유하고있는 스크립트를 불러와 사용후
+        // 스킬을 보유하고있는 스크립트를 불러와 사용
+        // creatureType = 2 == 보스 몬스터
         if (creatureType != 2)
         {
             GetComponent<CreatureSkill>().ActiveSkill(damage, target, creatureNum);

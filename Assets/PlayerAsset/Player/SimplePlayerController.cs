@@ -161,7 +161,7 @@ namespace ClearSky
 
         void UpdateHPBar()
         {
-            barImage.fillAmount = HP;
+            barImage.fillAmount = HP/maxHP;
         }
 
     }
