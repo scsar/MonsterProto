@@ -164,7 +164,6 @@ public class CreatureSkill : MonoBehaviour
 
     IEnumerator MeleeNormalAttack(Transform target)
     {
-        Debug.Log(Mathf.Abs(Vector2.Distance(transform.position, target.position)));
         if (Mathf.Abs(Vector2.Distance(transform.position, target.position)) < 4f)
         {
             Debug.Log("melee");
@@ -183,7 +182,7 @@ public class CreatureSkill : MonoBehaviour
         RaycastHit2D groundInfo = Physics2D.Raycast(origin, forwardDirection, 20f);
         Debug.DrawRay(origin, forwardDirection * 20f, Color.red); // 디버그용 Ray 그리기
         // 지면 체크
-        if (groundInfo.collider != null && groundInfo.collider.CompareTag("Player")) 
+        if (groundInfo.collider != null && groundInfo.collider.CompareTag("Player"))
         {
             return true;
         }

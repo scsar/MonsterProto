@@ -5,7 +5,7 @@ using UnityEngine;
 public class GroundCheck : MonoBehaviour
 {
     private Creature parent; 
-    public float groundCheckDistance = 4f; // 지면 감지 거리
+    public float groundCheckDistance = 5f; // 지면 감지 거리
 
     void Start()
     {
@@ -23,6 +23,7 @@ public class GroundCheck : MonoBehaviour
         {
             Flip();
         }
+        Debug.Log(groundInfo.collider);
     }
 
     private void Flip()
