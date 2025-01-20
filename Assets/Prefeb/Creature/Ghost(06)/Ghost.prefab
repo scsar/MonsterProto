@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6845528464344441242}
   - component: {fileID: 4400838730988206267}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: AttackPoint
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 5345992243317814505}
   - component: {fileID: 7820502578652749332}
   - component: {fileID: 6440049673929233456}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost
   m_TagString: Untagged
   m_Icon: {fileID: 0}

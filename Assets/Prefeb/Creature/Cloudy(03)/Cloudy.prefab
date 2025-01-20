@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2831094369102348834}
   - component: {fileID: 1080911706772038492}
   - component: {fileID: 2054239354187332399}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cloudy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -32,7 +32,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.013969362, y: 0.011010557, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -192,6 +192,10 @@ MonoBehaviour:
   creatureData: {fileID: 11400000, guid: 0459416015a7e7e44b7c5bdf7c001e03, type: 2}
   stopDistance: 4
   searchDistance: 20
+  movedir: -0.5
+  moveEuler: 0
+  isMovingRight: 1
+  speed: 2
 --- !u!114 &2054239354187332399
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9179213277015287355}
   - component: {fileID: 4925856661370024800}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: GroundCheck
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -61,7 +61,7 @@ GameObject:
   - component: {fileID: 1268407059329570253}
   - component: {fileID: 8137786860624639614}
   - component: {fileID: 7983470489240346037}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Snail
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -297,7 +297,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1929155464544904231}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: AttackCheck
   m_TagString: Enemy
   m_Icon: {fileID: 0}
