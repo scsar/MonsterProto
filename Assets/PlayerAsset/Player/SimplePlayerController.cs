@@ -36,7 +36,6 @@ namespace ClearSky
             Restart();
             if (alive)
             {
-                Hurt();
                 Die();
                 Attack();
                 Jump();
@@ -107,14 +106,11 @@ namespace ClearSky
         }
         void Hurt()
         {
-            if (Input.GetKeyDown(KeyCode.Alpha2))
-            {
                 anim.SetTrigger("hurt");
                 if (direction == 1)
                     rb.AddForce(new Vector2(-5f, 1f), ForceMode2D.Impulse);
                 else
                     rb.AddForce(new Vector2(5f, 1f), ForceMode2D.Impulse);
-            }
         }
         void Die()
         {
@@ -141,8 +137,9 @@ namespace ClearSky
                 TakeDamage(10);
                 this.transform.position = TalkStory.lastTalkPartPosition;
             }
-            else if (collision.gameObject.CompareTag("Enemy"))
+            else if (collision.gameObject.CompareTag("Projectile"))
             {
+                Hurt();
                 TakeDamage(10);
             }
         }

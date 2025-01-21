@@ -70,19 +70,20 @@ public class Hidden : MonoBehaviour
         float duration = 1f; // 한 번의 반짝임에 걸리는 시간
         while (true)
         {
-            // 점점 밝아지게
-            for (float t = 0; t < duration; t += Time.deltaTime)
-            {
-                float normalizedTime = t / duration;
-                spriteRenderer.color = Color.Lerp(Color.black, Color.yellow, normalizedTime);
-                yield return null;
-            }
+            
 
             // 점점 어두워지게
             for (float t = 0; t < duration; t += Time.deltaTime)
             {
                 float normalizedTime = t / duration;
                 spriteRenderer.color = Color.Lerp(Color.black, Color.white, normalizedTime);
+                yield return null;
+            }
+            // 점점 밝아지게
+            for (float t = 0; t < duration; t += Time.deltaTime)
+            {
+                float normalizedTime = t / duration;
+                spriteRenderer.color = Color.Lerp(Color.black, Color.yellow, normalizedTime);
                 yield return null;
             }
         }

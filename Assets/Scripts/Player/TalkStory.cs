@@ -15,10 +15,10 @@ public class TalkStory : MonoBehaviour
     void Start()
     {
         textTool = new string[] { 
-            " ",
-            "onetalking",
-            "twotalking",
-            "threetalking",
+            "안녕  ",
+            "여긴어디지",
+            "더이상 길이 없다.",
+            "젤리를 만져 보자!",
             "fourtalking",
             "fivetalking"
         };
@@ -55,15 +55,16 @@ public class TalkStory : MonoBehaviour
         // 한글자씩 --
         string printtext = textTool[index];
         int count = 0;
-        while (count < printtext.Length)
+        while (count < printtext.Length-1)
         {
             talkText.text += printtext[count];
+            Debug.Log(talkText.text);
             count++;
             yield return new WaitForSeconds(0.1f);
         }
         // 재생 --
 
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(1f);
         talkImage.SetActive(false);
         talkText.gameObject.SetActive(false);
     }

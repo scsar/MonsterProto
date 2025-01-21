@@ -4,17 +4,20 @@ using UnityEngine;
 
 public class Moving_Stone : MonoBehaviour
 {
-    // Start is called before the first frame update
-    public float speed = 2f; // 이동 속도
-    private float startX = -5f; // 시작 위치 X
-    private float endX = 5f;    // 끝 위치 X
+    public float speed = 2f;  // 이동 속도
+    private Vector3 startPosition;  // 오브젝트의 초기 위치
+    private float range = 5f;  // 이동 범위
+
+    void Start()
+    {
+        // 초기 위치를 저장
+        startPosition = transform.position;
+    }
 
     void FixedUpdate()
     {
-        // Mathf.PingPong을 사용하여 -5에서 5 사이로 이동
-        float newX = Mathf.PingPong(Time.time * speed, endX - startX) + startX;
-
-        // 새로운 X 좌표를 게임 오브젝트의 위치에 반영
-        transform.position = new Vector3(newX, transform.position.y, transform.position.z);
+        // 초기 위치를 기준으로 -5에서 +5 사이로 이동
+        float newX = Mathf.PingPong(Time.time * speed, range * 2) - range;
+        transform.position = new Vector3(startPosition.x + newX, transform.position.y, transform.position.z);
     }
 }

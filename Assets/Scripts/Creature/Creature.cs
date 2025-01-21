@@ -180,7 +180,7 @@ public class Creature : MonoBehaviour
         // 스킬을 다시 사용할수있게 변경
         isAttacked = false;
     }
-
+ 
     public void TakeDamage(int damage)
     {
         animator.SetTrigger("isHit");
@@ -205,8 +205,9 @@ public class Creature : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Attack"))
             {
-                collision.gameObject.SetActive(false);
-                this.gameObject.SetActive(false);
+                TakeDamage(1);
+                //collision.gameObject.SetActive(false);
+                //this.gameObject.SetActive(false);
             }
     }
 
