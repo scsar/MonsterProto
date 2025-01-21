@@ -208,7 +208,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 195c0491c8fc5a04ca1796663a652826, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackPrefeb: {fileID: 8210397777342924335, guid: bb81802494510e4418d1d57a821b658a, type: 3}
+  attackPrefeb: {fileID: 8210397777342924335, guid: f3ae121bfbe65984a9c3085477d48dfc, type: 3}
   linePrefeb: {fileID: 2504453675986495225, guid: 5f04d6c89fa202946a8f6a26828d73d9, type: 3}
   windPrefeb: {fileID: 6432291996266128545, guid: 5e2ffe32a68e32549bbe807548b94bb8, type: 3}
   rangeAttackPrefeb: {fileID: 8292768232013575856, guid: e7720565d868a454d93349e71689619f, type: 3}
