@@ -17,7 +17,6 @@ public class CameraMode : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        currentmode = CameraModeType.Mode1;
     }
     public void changeCameraModeType1()
     {
@@ -49,9 +48,9 @@ public class CameraMode : MonoBehaviour
         Vector3 newPosition = new Vector3(player.position.x, transform.position.y, transform.position.z);
         transform.position = newPosition;
     }
-    private void CameraMove2() {
-        Debug.Log("2·Î");
-        Vector3 newPosition = new Vector3(player.position.x, player.position.y, 0);
+    private void CameraMove2()
+    {
+        Vector3 newPosition = new Vector3(player.position.x, player.position.y, transform.position.z);
         transform.position = newPosition;
     }
     private void CameraMove3(){
